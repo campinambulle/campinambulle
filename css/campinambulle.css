@@ -13,7 +13,7 @@ h4 {
   font-weight: 300;
 }
 
-.carousel-caption {
+.carousel-caption.background-none {
   background: none !important;
 }
 
