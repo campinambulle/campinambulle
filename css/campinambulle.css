@@ -1,0 +1,161 @@
+.center {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  color: #f9a65d;
+}
+
+h3,
+h4 {
+  font-weight: 300;
+}
+
+.carousel-caption {
+  background: none !important;
+}
+
+.spaceT2 {
+  margin-top: 2px;
+}
+
+.spaceT10 {
+  margin-top: 10px;
+}
+
+.spaceT25 {
+  margin-top: 25px;
+}
+
+.spaceT40 {
+  margin-top: 40px;
+}
+
+.spaceB10 {
+  margin-bottom: 10px;
+}
+
+.spaceB25 {
+  margin-bottom: 25px;
+}
+
+.spaceL10 {
+  margin-left: 10px;
+}
+
+#header {
+  height: 90px;
+  padding: 10px 0;
+}
+
+#header ul {
+  margin-top: 40px;
+}
+
+#header ul a {
+  font-size: 17.5px;
+  color: #f9a65d;
+}
+
+#header li {
+  padding: 0 15px;
+}
+
+#preorder {
+  text-align: center;
+  font-size: 18px;
+}
+
+#preorder .help {
+  font-size: 18px;
+}
+
+#nos-produits h3 {
+  padding-top: 25px;
+}
+
+#nos-produits table th,
+#nos-produits table td {
+  font-size: 17.5px;
+  text-align: center !important;
+}
+
+#nos-produits table.popular {
+  border: 1px solid #f9a65d;
+}
+
+#nos-produits table.popular td {
+  border-color: transparent;
+}
+
+#nos-produits h3.popular  {
+  padding: 0;
+  color: #f9a65d;
+}
+
+#nos-produits small {
+  font-size: 70%;
+}
+
+#nos-produits a {
+  cursor: pointer;
+}
+
+#nos-produits h3 a {
+  font-size: 24.5px;
+  margin-bottom: 6px;
+}
+
+#faq a {
+  color: #f9a65d;
+}
+
+#nos-atouts .row {
+  text-align: center;
+}
+
+#nos-atouts i {
+  font-size: 75px;
+}
+
+#contact i {
+  font-size: 75px;
+}
+
+#contact address {
+  font-size: 18px;
+}
+
+#qui-sommes-nous .asset p {
+  font-size: 17.5px;
+  font-weight: 300;
+}
+
+.accordion-heading a {
+  color: #F9A65C;
+}
+
+.accordion {
+  box-shadow: 0 1px 0 #FBFBFB inset;
+}
+
+.accordion-heading {
+  border-bottom: 1px solid #DDDDDD;
+  background-color: #F8F8F8;
+}
+
+.accordion-inner {
+  border-bottom: 1px solid #E5E5E5;
+  border-top: none;
+}
+
+#footer {
+  text-align: center;
+  color: #f9a65d;
+}
+
+#footer a {
+  color: #f9a65d;
+}
