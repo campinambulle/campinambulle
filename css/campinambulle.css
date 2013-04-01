@@ -136,6 +136,11 @@ h4 {
   font-size: 14px;
 }
 
+#nos-atouts ul,
+#nos-atouts ul i {
+  font-size: 18px;
+}
+
 #contact i {
   font-size: 75px;
 }
