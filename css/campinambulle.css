@@ -60,7 +60,7 @@ h4 {
 }
 
 #header li {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 #preorder {
@@ -70,6 +70,12 @@ h4 {
 
 #preorder .help {
   font-size: 18px;
+}
+
+#pour-qui .slogan {
+  font-size: 24.5px;
+  font-weight: 300;
+  line-height: 34px;
 }
 
 #nos-produits h3 {
