@@ -126,6 +126,16 @@ h4 {
   text-align: left;
 }
 
+#nos-atouts .slogan {
+  font-size: 24.5px;
+  font-weight: 300;
+  line-height: 34px;
+}
+
+#nos-atouts .slogan span {
+  font-size: 14px;
+}
+
 #contact i {
   font-size: 75px;
 }
