@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.right {
+  text-align: right;
+}
+
 .black {
   color: #333333 !important;
 }
@@ -55,6 +59,10 @@ h3 {
 
 .spaceL10 {
   margin-left: 10px;
+}
+
+.spaceL20 {
+  margin-left: 20px;
 }
 
 #header {
@@ -197,4 +205,25 @@ h3 {
 
 #footer a {
   color: #f9a65d;
+}
+
+/************************/
+
+#configurateur label,
+#configurateur .prix {
+  font-size: 17.5px;
+}
+
+#configurateur .prix-total {
+  font-size: 31.5px;
+}
+
+#configurateur .contact {
+  font-size: 31.5px;
+  line-height: 36.5px;
+  font-weight: 300;
+}
+
+#configurateur a {
+  color: #F9A65C;
 }
