@@ -27,8 +27,14 @@ Campinambulle.computePrice = function() {
 Campinambulle.init = function() {
   Campinambulle.carousel();
   
-  Campinambulle.computePrice();
-  $("input").click(function(){
+  if($("#configurateur").length) {
     Campinambulle.computePrice();
-  });
+    $("input").click(function(e) {
+      var checkboxClicked = $(this);
+      var checkboxClickedStatus = $(this).attr('checked');
+      $("input[name='"+checkboxClicked.attr('name')+"']").attr('checked', false);
+      checkboxClicked.attr('checked', checkboxClickedStatus);
+      Campinambulle.computePrice();
+    });
+  }
 };
