@@ -215,8 +215,16 @@ h3 {
   font-size: 17.5px;
 }
 
+#configurateur .checked,
+#configurateur .checked label {
+  color: #f04e23;
+  font-weight: bold;
+}
+
 #configurateur .prix-total {
   font-size: 31.5px;
+  color: #f04e23;
+  font-weight: bold;
 }
 
 #configurateur .contact {
