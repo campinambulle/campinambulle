@@ -40,6 +40,10 @@ h3 {
   color: #f04e23
 }
 
+.carousel-control {
+  text-align: center;
+}
+
 .carousel-caption.background-none {
   background: none !important;
 }
