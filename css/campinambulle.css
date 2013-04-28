@@ -33,10 +33,9 @@ h3 {
   font-size: 23px;
 }
 
-#principe {
-  font-family: 'Cedarville Cursive', cursive;
-  font-size: 23px;
-  line-height: 35px;
+#principe .text {
+  font-size: 16px;
+  line-height: 23px;
   color: #f04e23
 }
 
@@ -100,10 +99,6 @@ h3 {
 
 #preorder {
   text-align: center;
-  font-size: 18px;
-}
-
-#preorder .help {
   font-size: 18px;
   line-height: 23px;
 }
