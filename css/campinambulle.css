@@ -155,6 +155,10 @@ h3 {
   color: #f9a65d;
 }
 
+#faq .accordion-heading a {
+  color: #f04e23;
+}
+
 #nos-atouts .row {
   text-align: center;
 }
