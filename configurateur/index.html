@@ -28,9 +28,12 @@
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <div id="configurateur" class="container spaceB25">
-      <h1 class="center spaceT40">Créer moi-même mon Campinambulle</h1>
+    <div id="header" class="container" >
+      <img src="../img/campinambulle-logo.png" class="pull-left" />
+      <h1 class="right spaceT25">Créer moi-même mon Campinambulle</h1>
+    </div>
 
+    <div id="configurateur" class="container spaceB25">
       <div class="spaceT40 center">
         <img src="img/croquis-configurateur.jpg" />
       </div>
@@ -45,12 +48,17 @@
           <h2>Malle, modèle "Cuisine-car"</h2>
         </div>
         <div class="row checked">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/1-MCCU-0455.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="malle" type="checkbox" data-price="1082" checked> 1 - Malle à 3 compartiments + Table + Rallonge (Réf. MCCU)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             1082 € TTC
           </div>
         </div>
@@ -61,22 +69,32 @@
           <h2>Compartiment gauche</h2>
         </div>
         <div class="row">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/2-MOCSU-0429.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="compartiment-gauche" type="checkbox" data-price="216"> 2 - Module cuisson (simple) (Réf. MOCSU)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             216 € TTC
           </div>
         </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/3-MOCTU-0431.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="compartiment-gauche" type="checkbox" data-price="297"> 3 - Module cuisson (et tablette d'appoint) (Réf. MOCTU)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             297 € TTC
           </div>
         </div>
@@ -87,39 +105,49 @@
           <h2>Compartiment milieu</h2>
         </div>
         <div class="row">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/4-MOT16U-MOT26U.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="compartiment-milieu" type="checkbox" data-price="249"> 4 - Module 2 tiroirs (Réf. MOT16U +  MOT26U)
             </label>
+            <div class="spaceT10 spaceL20">
+              1 tiroir 165 mm (Réf. MOT16U)
+            </div>
+            <div class="spaceT10 spaceL20">
+              1 tiroir 265 mm (Réf. MOT26U)
+            </div>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             249 € TTC
           </div>
         </div>
-        <div class="spaceT10 spaceL20">
-          1 tiroir 165 mm (Réf. MOT16U)
-        </div>
-        <div class="spaceT10 spaceL20">
-          1 tiroir 265 mm (Réf. MOT26U)
-        </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/5-MOT5U-MOT10U-MOT26U.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="compartiment-milieu" type="checkbox" data-price="318"> 5 - Module 3 tiroirs (Réf. MOT5U + MOT10U + MOT26U)
             </label>
+            <div class="spaceT10 spaceL20">
+              1 tiroir 55 mm (Réf. MOT5U)
+            </div>
+            <div class="spaceT10 spaceL20">
+              1 tiroir 105 mm (Réf. MOT10U)
+            </div>
+            <div class="spaceT10 spaceL20">
+              1 tiroir 265 mm (Réf. MOT26U)
+            </div>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             318 € TTC
           </div>
-        </div>
-        <div class="spaceT10 spaceL20">
-          1 tiroir 55 mm (Réf. MOT5U)
-        </div>
-        <div class="spaceT10 spaceL20">
-          1 tiroir 105 mm (Réf. MOT10U)
-        </div>
-        <div class="spaceT10 spaceL20">
-          1 tiroir 265 mm (Réf. MOT26U)
         </div>
       </div>
 
@@ -128,12 +156,17 @@
           <h2>Compartiment droit</h2>
         </div>
         <div class="row">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/6-MORAU.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="compartiment-droit" type="checkbox" data-price="399"> 6 - Module rangement (Réf. MORAU)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             399 € TTC
           </div>
         </div>
@@ -144,13 +177,18 @@
           <h2>Couchette</h2>
         </div>
         <div class="row">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/7-COS.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
-              <input name="couchette" type="checkbox" data-price="629"> 7 - Module couchette (Réf. COS)
+              <input name="couchette" type="checkbox" data-price="695"> 7 - Module couchette (Réf. COS)
             </label>
           </div>
-          <div class="span4 right prix">
-            629 € TTC
+          <div class="span2 right prix">
+            695 € TTC
           </div>
         </div>
       </div>
@@ -159,53 +197,63 @@
         <div class="page-header">
           <h2>Options</h2>
         </div>
-        <div class="row">
-          <div class="span8">
-            <label class="checkbox">
-              <input name="options-pare-vent" type="checkbox" data-price="27"> Pare-vent (Réf. PAR)
-            </label>
-          </div>
-          <div class="span4 right prix">
-            27 € TTC
-          </div>
-        </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/9-RPT5-0449.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="options-pied-de-table" type="checkbox" data-price="24"> Rallonge de pied-de-table (spécial pour véhicules 4 X 4) (Réf. RPT)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             24 € TTC
           </div>
         </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/10-CHT.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="options-chariot-de-transport" type="checkbox" data-price="118"> Chariot de transport (Réf. CHT)
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             118 € TTC
           </div>
         </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/11-vertical.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="options-decor" type="checkbox" data-price="87"> Décor vertical en ronce de noyer véritable
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             87 € TTC
           </div>
         </div>
         <div class="row spaceT25">
+          <div class="span2">
+            <div class="thumbnail">
+              <img src="img/12-oblique.jpg" />
+            </div>
+          </div>
           <div class="span8">
             <label class="checkbox">
               <input name="options-decor" type="checkbox" data-price="142"> Décor oblique en ronce de noyer véritable
             </label>
           </div>
-          <div class="span4 right prix">
+          <div class="span2 right prix">
             142 € TTC
           </div>
         </div>
