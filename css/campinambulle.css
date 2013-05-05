@@ -63,8 +63,24 @@ h3 {
   margin-top: 25px;
 }
 
+.spaceT35 {
+  margin-top: 35px;
+}
+
 .spaceT40 {
   margin-top: 40px;
+}
+
+.spaceT50 {
+  margin-top: 50px;
+}
+
+.spaceT60 {
+  margin-top: 60px;
+}
+
+.spaceT70 {
+  margin-top: 70px;
 }
 
 .spaceB10 {
@@ -244,6 +260,10 @@ h3 {
 #configurateur label,
 #configurateur .prix {
   font-size: 17.5px;
+}
+
+#configurateur .ref {
+  font-size: 14px;
 }
 
 #configurateur .checked,
