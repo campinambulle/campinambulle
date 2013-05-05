@@ -23,7 +23,7 @@
       <link rel="stylesheet" href="../assets/css/font-awesome-ie7.min.css">
     <![endif]-->
 
-    <link rel="stylesheet" href="../css/campinambulle.css?1366566267">
+    <link rel="stylesheet" href="../css/campinambulle.css?1367775492">
 
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
@@ -263,10 +263,73 @@
         Prix : <span></span> € TTC
       </div>
 
-      <div class="spaceT40 contact center">
-        Nous contacter en cliquant sur <a href="mailto:bonjour@campinambulle.com" target="_blank">bonjour@campinambulle.com</a>
-      </div>
+      <form class="form-horizontal" id="devis" action="contact/devis.php" method="POST">
 
+        <div class="row">
+          <div class="span1"></div>
+          <div class="span11">
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="nom">Nom <span class="required">*</span></label>
+              <div class="controls">
+                <input type="text" id="nom" name="nom" class="span3" />
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="prenom">Prénom <span class="required">*</span></label>
+              <div class="controls">
+                <input type="text" id="prenom" name="prenom" class="span3" />
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="adresse">Adresse</label>
+              <div class="controls">
+                <input type="text" id="adresse" name="adresse" class="span7">
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="courriel">Courriel <span class="required">*</span></label>
+              <div class="controls">
+                <input type="text" id="courriel" name="courriel" class="span3" />
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="telephone">Téléphone</label>
+              <div class="controls">
+                <input type="text" id="telephone" name="telephone" class="span3" />
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="commentaires">Commentaires <span class="required">*</span></label>
+              <div class="controls">
+                <textarea id="commentaires" name="commentaires" rows="10" class="span7"></textarea>
+              </div>
+            </div>
+            <div class="spaceT25 control-group">
+              <label class="control-label"></label>
+              <div class="controls">
+                <span class="required">* Informations indispensables</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="spaceT25 center">
+          J’ai pris connaissance des Conditions Générales de Vente de Campinambulle situées dans la rubrique "Mentions légales" de ce site.
+        </div>
+
+        <div class="spaceT25 center">
+          En cliquant sur "Envoyer", nous recevrons votre pré-devis (non contractuel). <br /> Nous vous ferons alors parvenir votre confirmation de commande à nous retourner signée pour accord, afin de concrétiser votre projet.
+        </div>
+
+        <div class="spaceT25 center">
+          <input class="btn btn-large" type="submit" value="Envoyer">
+        </div>
+
+      </form>
+
+      <div id="footer" class="spaceT40 spaceB25">
+        Copyright © - Campinambulle.com - 2013 - <a href="../cgv" target="_blank">Mentions légales</a>
+      </div>
     </div>
 
     <script>
@@ -278,7 +341,7 @@
 
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/plugins.js"></script>
-    <script src="../js/campinambulle.js?1366566267"></script>
+    <script src="../js/campinambulle.js?1367775492"></script>
 
     <script>
       $(document).ready(function() {

@@ -10,6 +10,10 @@
   text-align: right;
 }
 
+.required {
+  color: #f04e23;
+}
+
 .black {
   color: #333333 !important;
 }
@@ -262,4 +266,9 @@ h3 {
 
 #configurateur a {
   color: #F9A65C;
+}
+
+#configurateur #confirmation {
+  font-size: 17.5px;
+  color: #f9a65d;
 }

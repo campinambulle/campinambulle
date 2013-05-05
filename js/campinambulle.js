@@ -11,17 +11,17 @@ Campinambulle.computePrice = function() {
   var configuration = $('input:checked');
   
   var totalPrice = 0;
-  var mail = 'mailto:bonjour@campinambulle.com?body=';
+  var commentaires = '';
   
   for (var i = 0; i < configuration.length; i++) {
     totalPrice += $(configuration[i]).data('price');
-    mail += '- ' + $(configuration[i]).parent().text().trim() + ' ' + $(configuration[i]).parents('.row').find('.prix').text() + '%0d%0a';
+    commentaires += '- ' + $(configuration[i]).parent().text().trim() + ' ' + $(configuration[i]).parents('.row').find('.prix').text().trim() + "\n";
   }
   
-  mail += '%0d%0a' + 'Prix : ' + totalPrice + ' € TTC'
+  commentaires += "\n" + 'Prix : ' + totalPrice + ' € TTC' + "\n";
   
   $('.prix-total span').html(totalPrice);
-  $('.contact a').attr('href', mail);
+  $('#commentaires').val(commentaires);
 };
 
 Campinambulle.manageCheckboxStatus = function(self) {
@@ -29,6 +29,34 @@ Campinambulle.manageCheckboxStatus = function(self) {
   var checkboxClickedStatus = $(self).attr('checked');
   $("input[name='"+checkboxClicked.attr('name')+"']").attr('checked', false);
   checkboxClicked.attr('checked', checkboxClickedStatus);
+};
+
+Campinambulle.checkRequiredField = function(fieldId) {
+  $(fieldId).parents('.control-group').removeClass('error');
+  if($(fieldId).val() == '') {
+    $(fieldId).parents('.control-group').addClass('error');
+    return false;
+  } else {
+    return true;
+  }
+};
+
+Campinambulle.submitContactForm = function() {
+  $('#devis').submit(function() {
+    if(Campinambulle.checkRequiredField('#nom') && Campinambulle.checkRequiredField('#prenom') 
+      && Campinambulle.checkRequiredField('#courriel') && Campinambulle.checkRequiredField('#commentaires')) {
+      $.ajax({
+        url: $(this).attr('action'),
+        type: $(this).attr('method'),
+        data: $(this).serialize(),
+        success: function() {
+          $('#devis').html('<div id="confirmation" class="spaceT40 center">Merci. Nous vous ferons parvenir votre confirmation de commande à nous retourner signée pour accord afin de concrétiser votre projet.</div>')
+        }
+      });
+    }
+    
+    return false;
+  });
 };
 
 Campinambulle.highlightRowChecked = function(self) {
@@ -51,5 +79,6 @@ Campinambulle.init = function() {
       Campinambulle.highlightRowChecked(this);
       Campinambulle.computePrice();
     });
+    Campinambulle.submitContactForm();
   }
 };
