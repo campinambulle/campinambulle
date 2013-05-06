@@ -11,10 +11,11 @@ $to = "bonjour@campinambulle.com";
 
 $headers = "From: $courriel \r\n";
 $headers .= "Reply-To: $courriel \r\n";
+$headers .= "Content-Type: text/html; charset=\"UTF-8\" \r\n";
 
 $email_subject = "Devis Campinambulle : $prenom $nom";
 
-$email_body = "Nom : $nom \nPrénom : $prenom \nAdresse : $adresse \nCourriel : $courriel \r\nTéléphone : $telephone \n\n--------- \n\n$commentaires";
+$email_body = "Nom : $nom \nPrénom : $prenom \nAdresse : $adresse \nCourriel : $courriel \nTéléphone : $telephone \n\n--------- \n\n$commentaires";
 
 $email_sent = mail($to, $email_subject, $email_body, $headers);
 
