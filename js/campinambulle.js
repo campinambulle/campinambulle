@@ -69,10 +69,23 @@ Campinambulle.highlightRowChecked = function(self) {
   }
 };
 
+Campinambulle.focusImage = function() {
+  $(".fancybox").fancybox({
+    openEffect : 'elastic',
+    closeEffect	: 'elastic',
+    helpers : {
+      title : {
+        type : 'outside'
+      }
+    }
+  });
+};
+
 Campinambulle.init = function() {
   Campinambulle.carousel();
   
   if($("#configurateur").length) {
+    Campinambulle.focusImage();
     Campinambulle.computePrice();
     $("input").click(function(e) {
       Campinambulle.manageCheckboxStatus(this);
