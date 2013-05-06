@@ -40,7 +40,6 @@ h3 {
 #principe .text {
   font-size: 16px;
   line-height: 23px;
-  color: #f04e23
 }
 
 .carousel-control {
@@ -85,6 +84,10 @@ h3 {
 
 .spaceB10 {
   margin-bottom: 10px;
+}
+
+.spaceB15 {
+  margin-bottom: 15px;
 }
 
 .spaceB25 {
