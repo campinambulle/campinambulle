@@ -11,17 +11,17 @@ Campinambulle.computePrice = function() {
   var configuration = $('input:checked');
   
   var totalPrice = 0;
-  var commentaires = '';
+  var amenagement = '';
   
   for (var i = 0; i < configuration.length; i++) {
     totalPrice += $(configuration[i]).data('price');
-    commentaires += '- ' + $(configuration[i]).parent().text().trim() + ' ' + $(configuration[i]).parents('.row').find('.prix').text().trim() + "\n";
+    amenagement += '- ' + $(configuration[i]).parent().text().trim() + ' ' + $(configuration[i]).parents('.row').find('.prix').text().trim() + "\n";
   }
   
-  commentaires += "\n" + 'Prix : ' + totalPrice + ' € TTC' + "\n";
+  amenagement += "\n" + 'Prix : ' + totalPrice + ' € TTC';
   
   $('.prix-total span').html(totalPrice);
-  $('#commentaires').val(commentaires);
+  $('#amenagement').val(amenagement);
 };
 
 Campinambulle.manageCheckboxStatus = function(self) {
@@ -50,7 +50,7 @@ Campinambulle.submitContactForm = function() {
         type: $(this).attr('method'),
         data: $(this).serialize(),
         success: function() {
-          $('#devis').html('<div id="confirmation" class="spaceT40 center">Merci. Nous vous ferons parvenir votre confirmation de commande à nous retourner signée pour accord afin de concrétiser votre projet.</div>')
+          $('#devis').html('<div id="confirmation" class="spaceT40 center">Votre formulaire a bien été envoyé. <br />Vous serez contacté dans les 48 h par l\'équipe de Campinambulle. <br /> <a href="../" class="btn spaceT40">Retour sur le site de Campinambulle</a></div>')
         }
       });
     }
