@@ -307,6 +307,10 @@ h3 {
 
 /************************/
 
-#presse a {
-  color: #f9a65d;
+#pressePage .page-header img {
+  height: 45px;
+}
+
+#pressePage a {
+  color: #F9A65C;
 }
