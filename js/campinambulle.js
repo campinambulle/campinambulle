@@ -43,8 +43,8 @@ Campinambulle.checkRequiredField = function(fieldId) {
 
 Campinambulle.submitContactForm = function() {
   $('#devis').submit(function() {
-    if(Campinambulle.checkRequiredField('#nom') && Campinambulle.checkRequiredField('#prenom') 
-      && Campinambulle.checkRequiredField('#courriel') && Campinambulle.checkRequiredField('#commentaires')) {
+    if(Campinambulle.checkRequiredField('#nom') && Campinambulle.checkRequiredField('#adresse') 
+      && Campinambulle.checkRequiredField('#courriel') && Campinambulle.checkRequiredField('#amenagement')) {
       $.ajax({
         url: $(this).attr('action'),
         type: $(this).attr('method'),
