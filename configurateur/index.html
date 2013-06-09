@@ -23,7 +23,7 @@
       <link rel="stylesheet" href="../assets/css/font-awesome-ie7.min.css">
     <![endif]-->
 
-    <link rel="stylesheet" href="../css/campinambulle.css?1367875941">
+    <link rel="stylesheet" href="../css/campinambulle.css?1370787794">
 
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
@@ -337,6 +337,10 @@
       <div class="spaceT40 prix-total right">
         Prix : <span></span> € TTC
       </div>
+      
+      <div class="spaceT40 infos">
+        Nous vous proposons de compléter pour vous votre cuisine-car : glacière électrique, barbecue portable, siège de camping, matelas et duvets, douche solaire, cabine de douche, auvent indépendant qui se fixe à l'arrière du véhicule etc. Il suffit de nous le mentionner dans le formulaire ci-dessous, nous vous ferons parvenir les tarifs.
+      </div>
 
       <form class="form-horizontal" id="devis" action="contact/devis.php" method="POST">
 
@@ -362,6 +366,18 @@
               </div>
             </div>
             <div class="spaceT40 control-group">
+              <label class="control-label" for="codepostal">Code Postal <span class="required">*</span></label>
+              <div class="controls">
+                <input type="text" id="codepostal" name="codepostal" class="span3">
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="ville">Ville <span class="required">*</span></label>
+              <div class="controls">
+                <input type="text" id="ville" name="ville" class="span3">
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
               <label class="control-label" for="courriel">Courriel <span class="required">*</span></label>
               <div class="controls">
                 <input type="text" id="courriel" name="courriel" class="span3" />
@@ -377,6 +393,12 @@
               <label class="control-label" for="amenagement">Aménagement <span class="required">*</span></label>
               <div class="controls">
                 <textarea id="amenagement" name="amenagement" rows="7" class="span7"></textarea>
+              </div>
+            </div>
+            <div class="spaceT40 control-group">
+              <label class="control-label" for="codepromo">Code promotionnel</label>
+              <div class="controls">
+                <input type="text" id="codepromo" name="codepromo" class="span3" />
               </div>
             </div>
             <div class="spaceT40 control-group">
@@ -429,7 +451,7 @@
 
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/plugins.js"></script>
-    <script src="../js/campinambulle.js?1368086951"></script>
+    <script src="../js/campinambulle.js?1370787794"></script>
 
     <script>
       $(document).ready(function() {

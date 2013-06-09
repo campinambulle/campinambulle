@@ -315,6 +315,10 @@ h3 {
   color: #333333;
 }
 
+#configurateur .infos {
+  font-size: 17.5px;
+}
+
 /************************/
 
 #pressePage .page-header img {
