@@ -178,7 +178,7 @@
           </div>
         </div>
         <div class="center spaceT25">
-          <a class="btn btn-large btn-success" href="configurateur" target="_blank">Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
+          <a class="btn btn-large btn-success" href="configurateur">Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
         </div>
       </div>
 
@@ -385,7 +385,7 @@
               </table>
             </div>
           </div>
-          <h3>... ou <a class="btn btn-large btn-success" href="configurateur" target="_blank">créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a></h3>
+          <h3>... ou <a class="btn btn-large btn-success" href="configurateur" >créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a></h3>
         </div>
       </div>
 
@@ -501,7 +501,7 @@
       </div>
 
       <div class="spaceT40 center">
-        <a class="btn btn-large btn-success" href="configurateur" target="_blank">Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
+        <a class="btn btn-large btn-success" href="configurateur" >Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
       </div>
 
       <div id="faq" class="spaceT40">
@@ -720,7 +720,7 @@
       </div>
 
       <div id="footer" class="spaceT40 spaceB25">
-        Copyright © - Campinambulle.com - 2013 - <a href="cgv" target="_blank">Mentions légales</a>
+        Copyright © - Campinambulle.com - 2013 - <a href="cgv" >Mentions légales</a>
       </div>
     </div>
 

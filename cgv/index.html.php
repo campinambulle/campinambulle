@@ -28,7 +28,9 @@
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <?php include('../partials/header.inc.php'); ?>
+
+    <div class="container  header-top-space" >
       <div class="page-header">
         <h1>CONDITIONS GENERALES DE VENTE</h1>
       </div>
@@ -144,8 +146,6 @@
     <script src="../js/plugins.js"></script>
     <script src="../js/campinambulle.js"></script>
 
-    <script src="//www.tactileshots.com/signature.js"></script>
-    
     <script>
       $(document).ready(function() {
         Campinambulle.init();
