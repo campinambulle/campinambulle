@@ -30,7 +30,7 @@
   <body>
     <?php include('../partials/header.inc.php'); ?>
 
-    <div id="header" class="container" >
+    <div class="container header-top-space" >
       <h1 class="center spaceT25">
         Choisir mon Campinambulle
         <img src="/img/produit/fabrique-en-france-smaller.png" class="" />

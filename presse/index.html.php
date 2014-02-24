@@ -31,7 +31,7 @@
 
       <?php include('../partials/header.inc.php'); ?>
 
-    <div id="header" class="container" >
+    <div class="container  header-top-space" >
       <h1 class="center spaceT25">On parle de nous</h1>
     </div>
 

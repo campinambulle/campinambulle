@@ -28,9 +28,9 @@
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
-    <div class="container">
+    <?php include('partials/header.inc.php'); ?>
 
-      <?php include('partials/header.inc.php'); ?>
+    <div class="container  header-top-space">
 
       <div id="principe" class="row center">
         <div class="span7 text">
@@ -79,46 +79,46 @@
       <div id="presse" class="spaceT40">
         <h2 class="page-header">Presse : On nous fait confiance</h2>
         <div class="center">
-          <a href="presse#France3Auvergne" target="_blank">
+          <a href="presse#France3Auvergne">
             <img src="img/presse/france3-auvergne.png" />
           </a>
           <div class="center spaceT25">
-            <h4>"Voir le reportage France 3 Auvergne sur Campinambulle" <a href="presse#France3Auvergne" target="_blank">Voir le reportage</a></h4>
+            <h4>"Voir le reportage France 3 Auvergne sur Campinambulle" <a href="presse#France3Auvergne">Voir le reportage</a></h4>
           </div>
         </div>
         <div class="row center spaceT40">
           <div class="span6">
-            <a href="presse#CampinCarMagazine" target="_blank">
+            <a href="presse#CampinCarMagazine">
               <img src="img/presse/camping-car-magazine.gif" />
             </a>
             <div class="center spaceT25">
-              <h4>"Vous aimez les voyages, mais l’achat d’un camping-car..." <a href="presse#CampinCarMagazine" target="_blank">Lire la suite</a></h4>
+              <h4>"Vous aimez les voyages, mais l’achat d’un camping-car..." <a href="presse#CampinCarMagazine">Lire la suite</a></h4>
             </div>
           </div>
           <div class="span6">
-            <a href="presse#LaMontagne" target="_blank">
+            <a href="presse#LaMontagne">
               <img src="img/presse/la-montagne.gif" />
             </a>
             <div class="center spaceT25">
-              <h4>"On a revisité la malle de voyage d'autrefois..." <a href="presse#LaMontagne" target="_blank">Lire la suite</a></h4>
+              <h4>"On a revisité la malle de voyage d'autrefois..." <a href="presse#LaMontagne">Lire la suite</a></h4>
             </div>
           </div>
         </div>
         <div class="row center spaceT40">
           <div class="span6">
-            <a href="presse#ReferenceCamping" target="_blank">
+            <a href="presse#ReferenceCamping">
               <img src="img/presse/reference-camping.jpg" />
             </a>
             <div class="center spaceT25">
-              <h4>"Malle de voyage inédite, le Campinambulle est..." <a href="presse#ReferenceCamping" target="_blank">Lire la suite</a></h4>
+              <h4>"Malle de voyage inédite, le Campinambulle est..." <a href="presse#ReferenceCamping">Lire la suite</a></h4>
             </div>
           </div>
           <div class="span6">
-            <a href="presse#NarbonneAccessoires" target="_blank">
+            <a href="presse#NarbonneAccessoires">
               <img src="img/presse/narbonne-accessoires.png" />
             </a>
             <div class="center spaceT25">
-              <h4>"Bénéficiez de 10% de remise sur tous les produits..." <a href="presse#NarbonneAccessoires" target="_blank">Lire la suite</a></h4>
+              <h4>"Bénéficiez de 10% de remise sur tous les produits..." <a href="presse#NarbonneAccessoires">Lire la suite</a></h4>
             </div>
           </div>
         </div>

@@ -118,9 +118,20 @@ h3 {
   margin-left: 20px;
 }
 
+.header-top-space {
+  margin-top: 120px;
+}
+
 #header {
   height: 90px;
   padding: 10px 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
 }
 
 #header ul a {
