@@ -93,7 +93,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+.fancybox.thumbnail {
+  display: block;
+  display: inline-block;
+}
 
 
 

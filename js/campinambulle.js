@@ -1,3 +1,19 @@
+function FloatToEuroMoney( number ) {
+  var number = number.toString(), 
+    euros = number.split('.')[0], 
+    cents = (number.split('.')[1] || '') + '00';
+    
+    console.log(euros);
+    console.log(cents);
+
+    euros = euros.split('').reverse().join('')
+        .replace(/(\d{3}(?!$))/g, '$1 ')
+        .split('').reverse().join('');
+
+    return euros + ',' + cents.slice(0, 2);
+}
+
+
 Campinambulle.carousel = function() {
   $('.carousel').carousel();
   
@@ -10,14 +26,21 @@ Campinambulle.carousel = function() {
 Campinambulle.computePrice = function() {
   var configuration = $('input:checked');
   
-  var totalPrice = 0;
-  var amenagement = '';
+  var totalPrice = 0,
+      amenagement = '';
   
   for (var i = 0; i < configuration.length; i++) {
-    totalPrice += $(configuration[i]).data('price');
-    amenagement += '- ' + $(configuration[i]).parent().text().trim() + ' ' + $(configuration[i]).parents('.row').find('.prix').text().trim() + "\n";
+    var quantity = $(configuration[i]).next().val(),
+        unit_price_item = $(configuration[i]).data('price'),
+        total_item = (quantity * unit_price_item );
+    console.log('quantity: ' + quantity);
+
+    totalPrice += total_item;
+    amenagement += ' - ' + quantity + ' x ' + FloatToEuroMoney(unit_price_item)  + " € TTC - " + $(configuration[i]).data('title') + ' = ' + FloatToEuroMoney(total_item) + " € TTC \n";
   }
   
+  totalPrice = FloatToEuroMoney(totalPrice);
+
   amenagement += "\n" + 'Prix : ' + totalPrice + ' € TTC';
   
   $('.prix-total span').html(totalPrice);
@@ -63,9 +86,9 @@ Campinambulle.highlightRowChecked = function(self) {
   var checkboxClicked = $(self);
   $("input[name='"+checkboxClicked.attr('name')+"']").parents(".row").removeClass("checked");
   if(checkboxClicked.attr('checked') == "checked") {
-    checkboxClicked.parents(".row").addClass("checked");
+    checkboxClicked.parents(".product_row").addClass("checked");
   } else {
-    checkboxClicked.parents(".row").removeClass("checked");
+    checkboxClicked.parents(".product_row").removeClass("checked");
   }
 };
 
