@@ -28,9 +28,10 @@
     <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
   </head>
   <body>
+    <?php include('../partials/header.inc.php'); ?>
+
     <div id="header" class="container" >
-      <a href="../"><img src="../img/campinambulle-logo.png" class="pull-left" /></a>
-      <h1 class="right spaceT25">
+      <h1 class="center spaceT25">
         Choisir mon Campinambulle
         <img src="/img/produit/fabrique-en-france-smaller.png" class="" />
       </h1>
