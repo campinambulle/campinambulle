@@ -624,13 +624,13 @@ $complements = array(
               </div>
             </div>
             <div class="spaceT40 control-group">
-              <label class="control-label" for="adresse">Adresse <span class="required">*</span></label>
+              <label class="control-label" for="adresse">Adresse</label>
               <div class="controls">
                 <input type="text" id="adresse" name="adresse" class="span7">
               </div>
             </div>
             <div class="spaceT40 control-group">
-              <label class="control-label" for="codepostal">Code Postal <span class="required">*</span></label>
+              <label class="control-label" for="codepostal">Code Postal</label>
               <div class="controls">
                 <input type="text" id="codepostal" name="codepostal" class="span3">
               </div>

@@ -3,9 +3,6 @@ function FloatToEuroMoney( number ) {
     euros = number.split('.')[0], 
     cents = (number.split('.')[1] || '') + '00';
     
-    console.log(euros);
-    console.log(cents);
-
     euros = euros.split('').reverse().join('')
         .replace(/(\d{3}(?!$))/g, '$1 ')
         .split('').reverse().join('');
@@ -33,7 +30,6 @@ Campinambulle.computePrice = function() {
     var quantity = $(configuration[i]).next().val(),
         unit_price_item = $(configuration[i]).data('price'),
         total_item = (quantity * unit_price_item );
-    console.log('quantity: ' + quantity);
 
     totalPrice += total_item;
     amenagement += ' - ' + quantity + ' x ' + FloatToEuroMoney(unit_price_item)  + " € TTC - " + $(configuration[i]).data('title') + ' = ' + FloatToEuroMoney(total_item) + " € TTC \n";
@@ -66,8 +62,7 @@ Campinambulle.checkRequiredField = function(fieldId) {
 
 Campinambulle.submitContactForm = function() {
   $('#devis').submit(function() {
-    if(Campinambulle.checkRequiredField('#nom') && Campinambulle.checkRequiredField('#adresse') && Campinambulle.checkRequiredField('#codepostal') 
-      && Campinambulle.checkRequiredField('#ville') && Campinambulle.checkRequiredField('#courriel') && Campinambulle.checkRequiredField('#amenagement')) {
+    if(Campinambulle.checkRequiredField('#nom') && Campinambulle.checkRequiredField('#ville') && Campinambulle.checkRequiredField('#courriel') && Campinambulle.checkRequiredField('#amenagement')) {
       $.ajax({
         url: $(this).attr('action'),
         type: $(this).attr('method'),
