@@ -204,7 +204,7 @@ $complements = array(
         'description' => "(1 réchaud + 1 glacière élect. + 2 jerrycans de 5 litres + 1 de 10 litres)", 
         'pdf_url' => "/fiches/PACK-COMPLET-CUISINE.pdf", 
         'price' => '162,90',
-        'photo' => array( 'photo_href' => 'clef-en-main', 'photo_src' => 'clef-en-main')
+        'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
         'pack' => false,
@@ -254,7 +254,7 @@ $complements = array(
         'description' => "(2 chaises + 2 tabourets + 1 lanterne)", 
         'pdf_url' => "/fiches/PACK-COMPLET-REPAS.pdf", 
         'price' => '96,60',
-        'photo' => array( 'photo_href' => 'clef-en-main', 'photo_src' => 'clef-en-main')
+        'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
         'pack' => false,
@@ -296,7 +296,7 @@ $complements = array(
         'description' => "(2 matelas + 2 sacs de couchage jumelables + 2 oreillers + 1 drap 2 P)", 
         'pdf_url' => "/fiches/PACK-COMPLET-COUCHAGE.pdf", 
         'price' => '396,70',
-        'photo' => array( 'photo_href' => 'clef-en-main', 'photo_src' => 'clef-en-main')
+        'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
         'pack' => false,
@@ -346,7 +346,7 @@ $complements = array(
         'description' => "", 
         'pdf_url' => "/fiches/FT12-Protection-pluie-soleil-le-pack-complet", 
         'price' => '166,90',
-        'photo' => array( 'photo_href' => 'clef-en-main', 'photo_src' => 'clef-en-main')
+        'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
         'pack' => false,
