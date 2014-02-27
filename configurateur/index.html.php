@@ -443,7 +443,7 @@ $complements = array(
 
       <div class="spaceT40">
         <div class="page-header">
-          <h2>MALLE DE VOYAGE, MODÈLE "CUISINE-CAR®"</h2>
+          <h2>MALLE DE VOYAGE, MODÈLE "CUISINE-CAR<sup>®</sup>"</h2>
         </div>
         <?php foreach ($modeles as $model) { ?>
 
