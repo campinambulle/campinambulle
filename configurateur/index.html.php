@@ -30,11 +30,14 @@
   <body>
     <?php include('../partials/header.inc.php'); ?>
 
-    <div class="container header-top-space" >
+    <div class="container" >
       <h1 class="center spaceT25">
         Choisir mon Campinambulle
-        <img src="/img/produit/fabrique-en-france-smaller.png" class="" />
       </h1>
+      <h4 class="center">
+        <img src="/img/produit/fabrique-en-france.png" alt="Fabriqué en france" />
+        Par le Maître Ebéniste
+      </h4>
     </div>
 
     <div id="configurateur" class="container spaceB25">
@@ -447,7 +450,7 @@ $complements = array(
         </div>
         <?php foreach ($modeles as $model) { ?>
 
-          <div class="row product_row">
+          <div class="row product_row" id="<?php echo slugify($model['title']) ?>">
             <div class="span10 spaceT40">
               <label class="checkbox">
                 <input name="malle" type="checkbox" data-title="<?php echo $model['title'] ?>" data-price="<?php echo stringNumberToFloat($model['price']) ?>" >

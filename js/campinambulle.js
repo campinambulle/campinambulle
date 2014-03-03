@@ -113,3 +113,10 @@ Campinambulle.init = function() {
     Campinambulle.submitContactForm();
   }
 };
+
+
+$("[data-campi-id]").on("click", function(e){
+  var hash = $(e.currentTarget).data('campi-id');
+  console.log(hash);
+  window.location.href = '/configurateur' + hash;
+})

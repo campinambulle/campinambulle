@@ -10,6 +10,10 @@
   text-align: right;
 }
 
+.clear {
+  clear: both;
+}
+
 .required {
   color: #f04e23;
 }
@@ -118,10 +122,6 @@ h3 {
   margin-left: 20px;
 }
 
-.header-top-space {
-  margin-top: 120px;
-}
-
 #header {
   height: 90px;
   padding: 10px 0;
@@ -134,29 +134,34 @@ h3 {
   border-bottom: 1px solid #eee;
 }
 
-#header ul a {
+
+#menu a {
   font-size: 17.5px;
   color: #f9a65d;
+  display: inline-block;
 }
 
-#header li {
-  padding: 0 10px;
-}
-
-#kit-presse a {
-  color: #333333 !important;
-  text-decoration: underline;
-  font-size: 14px !important;
-}
-
-#kit-presse a:hover {
-  color: #f9a65d !important;
+#menu li {
+  display: inline;
+  float: left;
+  list-style: none;
+  padding: 0 7px;
 }
 
 #preorder {
   text-align: center;
   font-size: 18px;
   line-height: 23px;
+}
+
+#posts .wrapper {
+  padding-top: 10px;
+  margin-bottom: 30px;
+  border-bottom: solid 1px #ddd;
+}
+
+#preorder strong {
+  font-size: 25px;
 }
 
 #presse .help {
@@ -210,6 +215,13 @@ h3 {
   font-size: 23px;
   margin-bottom: 6px;
 }
+
+#nos-produits [data-campi-id]:hover {
+  background-color: #ddd;
+  border: 1px solid #f9a65d;
+  cursor: pointer;
+}
+
 
 #faq a {
   color: #f9a65d;
@@ -382,4 +394,24 @@ h3 {
 
 #pressePage a {
   color: #F9A65C;
+}
+
+.btn-success {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #7dfe24;
+  background-image: -moz-linear-gradient(top,#7dfe24,#64cc1d);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#7dfe24),to(#64cc1d));
+  background-image: -webkit-linear-gradient(top,#7dfe24,#64cc1d);
+  background-image: -o-linear-gradient(top,#7dfe24,#64cc1d);
+  background-image: linear-gradient(to bottom,#7dfe24,#64cc1d);
+  background-repeat: repeat-x;
+  border-color: #64cc1d #64cc1d #7dfe24;
+  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7dfe24',endColorstr='#ff64cc1d',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.btn-success:hover, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled] {
+  background-color: #64cc1d;
 }

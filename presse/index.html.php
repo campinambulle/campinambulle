@@ -31,8 +31,13 @@
 
       <?php include('../partials/header.inc.php'); ?>
 
-    <div class="container  header-top-space" >
+    <div class="container" >
       <h1 class="center spaceT25">On parle de nous</h1>
+      <h4 class="center">
+        <img src="/img/produit/fabrique-en-france.png" alt="Fabriqué en france" />
+        Par le Maître Ebéniste
+      </h4>
+      <p class="center"><a href="/presse/kit-presse-campinambulle.zip" class="btn btn-tiny btn-info">Télécharger le "Kit Presse Campinambulle"</a></p>
     </div>
 
     <div id="pressePage" class="container spaceB25">

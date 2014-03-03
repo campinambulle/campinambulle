@@ -30,14 +30,14 @@
   <body>
     <?php include('partials/header.inc.php'); ?>
 
-    <div class="container  header-top-space">
+    <div class="container">
 
       <div id="principe" class="row center">
         <div class="span7 text">
           Aménagement de voitures pour ludospaces <em>Kangoo, Partner, Berlingo, Doblo, Tournéo, Caddy...</em> monospaces <em>Jumpy, Expert, Scudo, Espaces...</em> fourgons utilitaires et 4x4, etc.
         </div>
         <div class="span5">
-          <a class="btn btn-large btn-success" href="configurateur" >Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
+          <a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
         </div>
       </div>
 
@@ -76,72 +76,21 @@
         <strong>Transformez votre voiture en camping-car.</strong> <br /> Une malle de voyage pour le coffre de votre véhicule, avec cuisine et couchette intégrées, mise en place en moins de 5 minutes.
       </div>
 
-      <div id="presse" class="spaceT40">
-        <h2 class="page-header">Presse : On nous fait confiance</h2>
-        <div class="center">
-          <a href="presse#France3Auvergne">
-            <img src="img/presse/france3-auvergne.png" />
-          </a>
-          <div class="center spaceT25">
-            <h4>"Voir le reportage France 3 Auvergne sur Campinambulle" <a href="presse#France3Auvergne">Voir le reportage</a></h4>
-          </div>
-        </div>
-        <div class="row center spaceT40">
-          <div class="span6">
-            <a href="presse#CampinCarMagazine">
-              <img src="img/presse/camping-car-magazine.gif" />
-            </a>
-            <div class="center spaceT25">
-              <h4>"Vous aimez les voyages, mais l’achat d’un camping-car..." <a href="presse#CampinCarMagazine">Lire la suite</a></h4>
-            </div>
-          </div>
-          <div class="span6">
-            <a href="presse#LaMontagne">
-              <img src="img/presse/la-montagne.gif" />
-            </a>
-            <div class="center spaceT25">
-              <h4>"On a revisité la malle de voyage d'autrefois..." <a href="presse#LaMontagne">Lire la suite</a></h4>
-            </div>
-          </div>
-        </div>
-        <div class="row center spaceT40">
-          <div class="span6">
-            <a href="presse#ReferenceCamping">
-              <img src="img/presse/reference-camping.jpg" />
-            </a>
-            <div class="center spaceT25">
-              <h4>"Malle de voyage inédite, le Campinambulle est..." <a href="presse#ReferenceCamping">Lire la suite</a></h4>
-            </div>
-          </div>
-          <div class="span6">
-            <a href="presse#NarbonneAccessoires">
-              <img src="img/presse/narbonne-accessoires.png" />
-            </a>
-            <div class="center spaceT25">
-              <h4>"Bénéficiez de 10% de remise sur tous les produits..." <a href="presse#NarbonneAccessoires">Lire la suite</a></h4>
-            </div>
-          </div>
-        </div>
-      </div>
 
       <div id="videos" class="spaceT40">
         <h2 class="page-header">Vidéos : "Et si on se faisait la malle !"</h2>
         <div class="row center">
-          <div class="span3">
+          <div class="span4">
             <h3>Manger dans sa voiture</h3>
             <iframe width="100%" height="203" src="http://www.youtube.com/embed/eCmx3BZC0PA?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="span3">
+          <div class="span4">
             <h3>Dormir dans sa voiture</h3>
             <iframe width="100%" height="203" src="http://www.youtube.com/embed/rlWjsKdqpMA?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="span3">
-            <h3>Aménager sa voiture</h3>
+          <div class="span4">
+            <h3>Mode d’emploi</h3>
             <iframe width="100%" height="203" src="http://www.youtube.com/embed/Mqvw16FkKsk?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="span3">
-            <h3>Fonctionnement</h3>
-            <iframe width="100%" height="203" src="http://www.youtube.com/embed/0m8hUZdx9iE?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
         <div class="center spaceT25 slogan">
@@ -178,9 +127,16 @@
           </div>
         </div>
         <div class="center spaceT25">
-          <a class="btn btn-large btn-success" href="configurateur">Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
+          <a class="btn btn-large btn-success" href="configurateur">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
         </div>
       </div>
+
+
+
+
+
+
+
 
       <div id="nos-atouts" class="spaceT40">
         <h2 class="page-header">Nos atouts</h2>
@@ -272,10 +228,72 @@
             </ul>
           </div>
           <div class="span5 center">
-            <a class="btn btn-large btn-success" href="configurateur" target="_blank">Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
+            <a class="btn btn-large btn-success" href="configurateur" target="_blank">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+      <div id="vehicules-compatibles">
+        <h2 class="page-header">Véhicules compatibles</h2>
+        <h3>Dimensions</h3>
+        <img src="/img/croquis-config-dim.jpg" alt="Croquis config + dim" class="pull-right">
+        <p>La malle de voyage “Cuisine-Car” a été conçue, tout spécialement, pour s'adapter à l'immense majorité des véhicules de type Ludospace, Monospace, Combi et Fourgon, et certains 4X4. <br>
+        Néanmoins, avant de passer commande, et pour vous assurer qu'elle rentre parfaitement dans le coffre de votre véhicule, nous vous conseillons de le vérifier en prenant les mesures, grâce aux dimensions suivantes :</p>
+
+        <h5>1. La malle </h5>
+        <ul>
+          <li>largeur : 1,12 m (au sol)</li>
+          <li>profondeur : 0,61 m (entre le coffre fermé et les sièges arrières)</li>
+          <li>hauteur : 0,55 m – et avec la couchette : 0,60 m</li>
+        </ul>
+
+        <h5>2. La couchette</h5>
+        <ul>
+          <li>largeur : 1,12 m</li>
+          <li>longueur : 1,88 m</li>
+          <li>hauteur : 0,55 m au-dessus du plancher (même hauteur que la malle).</li>
+        </ul>
+
+        <h3 class="spaceT40">Types de véhicules</h3>
+        <p>Ces quelques exemples sont donnés à titre indicatif. Pour éviter tout risque d’erreur, le plus sûr est de mesurer le coffre du véhicule à équiper.</p>
+        
+        <div class="row">
+          <div class="span3">
+            <h4><strong>Ludospaces</strong></h4>
+            <p>Type Kangoo,	Type Partner, Berlingo, Doblo, Tournéo, Caddy, Dokker, Combo, Connect, etc</p>
+          </div>
+
+          <div class="span3">
+            <h4><strong>Monospaces</strong></h4>
+            <p>Jumpy, Scudo, Espace, 807, Phédra, C8, Grand voyager, etc.</p>
+          </div>
+
+          <div class="span3">
+            <h4><strong>Combis et Fourgons</strong></h4>
+            <p>Type Expert, Trafic, Transporter, Vito, Combi, Ford Transit, NV200, etc.</p>
+          </div>
+
+          <div class="span3">
+            <h4><strong>4X4</strong></h4>
+            <p>Type Nissan, etc.</p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+
 
       <div id="nos-produits" class="spaceT40">
         <h2 class="page-header">Nos produits</h2>
@@ -292,102 +310,108 @@
           </div>
           <div class="row">
             <div class="span3">
-              <table class="table">
+              <table class="table" data-campi-id="#campi-forez">
                 <thead>
                   <tr>
-                    <th>Le Forez</th>
+                    <th>Campi-Forez</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Malle + Table</td>
+                    <td>Malle avec table à rallonge</td>
                   </tr>
                   <tr>
-                    <td><strong>1 082 €</strong> <small>TTC</small> <br /> <small><a href="docs/fiches-techniques/le-forez.pdf" target="_blank">Téléchargez le PDF des caractéristiques</a></small></td>
+                    <td><strong>1 082 €</strong> <small>TTC</small></td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div class="span3">
-              <table class="table">
+              <table class="table" data-campi-id="#campi-sancy">
                 <thead>
                   <tr>
-                    <th>Le Sancy</th>
+                    <th>Campi-Sancy</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Malle + Table</td>
+                    <td>Malle avec table à rallonge</td>
                   </tr>
                   <tr>
                     <td>Module couchette</td>
                   </tr>
                   <tr>
-                    <td><strong>1 777 €</strong> <small>TTC</small> <br /> <small><a href="docs/fiches-techniques/le-sancy.pdf" target="_blank">Téléchargez le PDF des caractéristiques</a></small></td>
+                    <td><strong>1 777 €</strong> <small>TTC</small></td>
                   </tr>
                 </tbody>
               </table>
             </div>
             <div class="span3">
-              <table class="table popular">
+              <table class="table popular" data-campi-id="#campi-lioran">
                 <thead>
                   <tr>
-                    <th>Le Lioran</th>
+                    <th>Campi-Lioran</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Malle + Table</td>
+                    <td>Malle avec table à rallonge</td>
                   </tr>
                   <tr>
-                    <td>Module couchette</td>
+                    <td>Module cuisine avec tablette d’appoint</td>
                   </tr>
                   <tr>
-                    <td>Module cuisson (simple)</td>
+                    <td>Module 3 tiroirs</td>
                   </tr>
                   <tr>
-                    <td>Module central à 2 tiroirs</td>
+                    <td>Module rangement</td>
                   </tr>
                   <tr>
-                    <td><strong>2 242 €</strong> <small>TTC</small> <br /> <small><a href="docs/fiches-techniques/le-lioran.pdf" target="_blank">Téléchargez le PDF des caractéristiques</a></small></td>
+                    <td><strong>2 096 €</strong> <small>TTC</small> <br /></td>
                   </tr>
                 </tbody>
               </table>
               <h3 class="popular">Le plus populaire <i class="icon-heart"></i></h3>
             </div>
             <div class="span3">
-              <table class="table">
+              <table class="table" data-campi-id="#campi-val-d-allier">
                 <thead>
                   <tr>
-                    <th>Le Val d’Allier</th>
+                    <th>Campi-Val d’Allier </th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <td>Malle + Table</td>
+                    <td>Malle avec table à rallonge</td>
                   </tr>
                   <tr>
-                    <td>Module couchette</td>
+                    <td>Module cuisine avec tablette d’appoint</td>
                   </tr>
                   <tr>
-                    <td>Module cuisson (et tablette d’appoint)</td>
-                  </tr>
-                  <tr>
-                    <td>Module central à 3 tiroirs</td>
+                    <td>Module 3 tiroirs</td>
                   </tr>
                   <tr>
                     <td>Module rangement</td>
                   </tr>
                   <tr>
-                    <td><strong>2 791 €</strong> <small>TTC</small> <br /> <small><a href="docs/fiches-techniques/le-val-d-allier.pdf" target="_blank">Téléchargez le PDF des caractéristiques</a></small></td>
+                    <td>Module couchette</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2 791 €</strong> <small>TTC</small></td>
                   </tr>
                 </tbody>
               </table>
             </div>
           </div>
-          <h3>... ou <a class="btn btn-large btn-success" href="configurateur" >créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a></h3>
+          <h3><a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle<i class="icon-caret-right spaceL10"></i></a></h3>
         </div>
       </div>
+
+
+
+
+
+
 
       <div id="qui-sommes-nous" class="spaceT40">
         <h2 class="page-header">Qui sommes-nous ?</h2>
@@ -461,23 +485,402 @@
           <h3>Ce qui nous guide, au-delà d'une entreprise : des valeurs.</h3>
           <div class="row spaceT25">
             <div class="span6 center">
-              Une certaine idée des rapports humains<br /> 
-              dans le respect de leurs besoins<br /> 
-              et à travers l'espace concret de leur vie quotidienne,<br /> 
-              dont la voiture en est l'extension.
+              <p>
+                Une certaine idée des rapports humains<br /> 
+                dans le respect de leurs besoins<br /> 
+                et à travers l’espace concret de leur vie quotidienne<br /> 
+                dont la voiture en est l’extension.
+              </p>
+              <h4><strong>Le plaisir de vivre dans un espace bien pensé, fonctionnel et confortable.</strong></h4>
             </div>
             <div class="span6 center">
-              Tout un concept visant l'autonomie, l'indépendance,<br /> 
-              le confort, la convivialité et le partage,<br /> 
-              le respect d'autrui et, le plus possible,<br /> 
-              celui de l'environnement.
+              <p>
+                Tout un concept visant l'autonomie, l'indépendance,<br /> 
+                le confort, la convivialité et le partage,<br /> 
+                le respect d'autrui et, le plus possible,<br /> 
+                celui de l'environnement.
+              </p>
+              <h4><strong>“Ce qui ne pousse pas dans la nature, ne se jette pas dans la nature”.</strong></h4>
             </div>
           </div>
           <div class="center spaceT25">
-            <h3>Le plaisir de vivre dans un espace fonctionnel et bien pensé.</h3>
           </div>
         </div>
       </div>
+
+
+
+
+
+
+      <div id="presse" class="spaceT40">
+        <h2 class="page-header">Presse</h2>
+        <div class="row">
+          <div class="span4">
+            <h3>Nos partenaires</h3>
+            <p class="spaceT25">
+              <a href="http://www.auvieuxcampeur.fr/" target="_blank"><img src="/img/Logo-Vieux-Campeur.jpg" alt="Vieux Campeur"></a>
+            </p>
+            <p class="">
+              <a href="http://www.narbonneaccessoires.fr/" target="_blank"><img src="/img/presse/narbonne-accessoires.png"></a>
+            </p>
+          </div>
+
+          <div class="span4">
+            <h3>On parle de nous</h3>
+
+
+            <p class="spaceT25">
+              <a href="presse">
+                <img src="img/presse/france3-auvergne.png" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/camping-car-magazine.gif" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/la-montagne.gif" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/reference-camping.jpg" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/narbonne-accessoires.png" />
+              </a>
+            </p>
+
+          </div>
+
+          <div class="span4">
+            <h3>Blog</h3>
+            <div id="posts"> </div>
+
+          </div>
+        </div>
+        
+        <div class="clear"></div>
+      </div>
+      
+
+
+
+
+
+
+
+
+
+      <div class="spaceT40 center">
+        <a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
+      </div>
+
+      <div id="faq" class="spaceT40">
+        <h2 class="page-header">FAQ : Réponses aux questions les plus courantes sur le Campinambulle</h2>
+
+        <div class="row">
+
+          <div class="span4">
+            <h3>Achat</h3>
+            <div class="accordion">
+              <div class="accordion-group">
+                
+                <div class="accordion-heading">
+                  <a href="#collapse01" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Puis-je essayer le Campinambulle avant de l’acheter ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse01" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Oui, vous pouvez venir voir le produit et même l'essayer dans votre véhicule. En découvrant sa souplesse d'utilisation et toutes les possibilités qu'il vous offre, nous sommes sûrs que vous l’adopterez. Alors surtout n'hésitez pas, nous sommes à votre disposition !</p>
+                  </div>
+                </div>
+
+                <div class="accordion-heading">
+                  <a href="#collapse02" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Quels sont les frais de livraison ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse02" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Vous pouvez être livré à domicile par transporteur (le délai transporteur est d’environ une semaine). Le prix de la livraison sera indiqué sur le devis et dépend de votre lieu de résidence. Développement durable et esprit éco-responsable oblige, nous avons conçu tout exprès une caisse d’emballage “double vie”, en bois, qui protégera parfaitement votre Campinambulle pendant son transport. La façade et le dessus se dévissent pour le sortir aisément. Alors, surtout ne la jetez pas, vous pourrez la réutiliser en malle de rangement multi-usages (contenance 650 litres), voir photo de la caisse d’expédition "double vie". <img src="/img/faq/Photo_P_Caisse_expedition_005.jpg" alt=""> Bien sûr vous pouvez aussi venir chercher votre Campinambulle, nous nous ferons un plaisir de vous accueillir. <a href="#contact">Nous sommes situés dans le nord de l'Auvergne</a>, au centre de la France. Vous pourrez alors faire l'économie des frais de livraison et en profiter pour visiter notre atelier de fabrication. Vous pourrez aussi bénéficier des conseils techniques de notre concepteur et de notre expérience de "grands voyageurs" en Campinambulle.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-heading">
+                  <a href="#collapse03" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Quels sont les délais de livraison ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse03" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Nous fabriquons intégralement nos malles en Auvergne, dans notre atelier d'ébénisterie. La fabrication est artisanale, c’est ce qui fait la qualité et la longévité de nos produits. Le délai de livraison varie entre 2 et 6 semaines, une fois le règlement encaissé et selon l’état du stock. À cela s’ajoute le délai transporteur, qui est d’environ 1 semaine, si vous choisissez la livraison à domicile.</p>
+                  </div>
+                </div>
+
+                <div class="accordion-heading">
+                  <a href="#collapse04" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Si je veux un aménagement sur-mesure ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse04" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Si vous souhaitez compléter ou modifier votre aménagement existant, ou si vous souhaitez un aménagement particulier pour votre équipement sportif ou votre matériel professionnel par exemple, nous pouvons répondre à votre demande. Juste à savoir que nous ne travaillons que sur des aménagements amovibles qui ne modifient pas la structure du véhicule (concept Campinambulle).</p>
+                    C'est le 2ème volet de notre activité et de notre savoir-faire : <strong>le sur-mesure à "Vos" mesures</strong>.</p>
+                    <p>Notre bureau d'études est à votre disposition. Contactez-nous et nous étudierons ensemble votre projet (recueil de vos besoins, de vos contraintes et de vos attentes). Cette étude est gratuite. Nous procéderons comme suit : </p>
+                    <ul>
+                      <li>Analyse des données concernant le projet – Devis descriptif et estimatif des aménagements et équipements souhaités, avec délais de fabrication et d'installation.</li>
+                      <li>A réception de ce devis signé par vous et valant confirmation de votre commande, et après encaissement d'un acompte représentant 60 % du montant des travaux, nous mettrons votre projet en fabrication dans nos ateliers.</li>
+                      <li>Le solde, à savoir les 40 % restants, sera versé au moment de l'installation dans votre véhicule en nos ateliers.</li>
+                    </ul>
+
+                  </div>
+                </div>
+
+                <div class="accordion-heading">
+                  <a href="#collapse05" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Photos de réalisations sur-mesure</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse05" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>
+                      <img src="/img/faq/Photo_U_Partner_Sur_mesure_1739.jpg" />
+                    </p>
+                    <p>
+                      <img src="/img/faq/Photo_V_Transporter_Sur_mesure.jpg" />
+                    </p>
+                  </div>
+                </div>
+
+                <div class="accordion-heading">
+                  <a href="#collapse06" data-parent="#accordion1" data-toggle="collapse" class="accordion-toggle">Comment je paye ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse06" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>
+                    Au comptant à la commande, par virement, mandat, espèces ou chèque à l’ordre de Campinambulle. Nos prix s'entendent TTC départ atelier, frais de port en sus. Après encaissement du règlement, la commande sera expédiée dans un délai de 2 à 6 semaines (hors délai transporteur). Voir le paragraphe correspondant de nos "Conditions Générales de vente" dans la rubrique <a href="/cgv/">"Mentions légales"</a>.
+                    </p>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="span4">
+            <h3>Installation</h3>
+            <div class="accordion">
+              <div class="accordion-group">
+                
+                <div class="accordion-heading">
+                  <a href="#collapse11" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Dois-je modifier ma voiture pour installer mon Campinambulle ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse11" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Non, aucune modification sur votre voiture n'est nécessaire. Vous conservez les 3 places assises à l’arrière.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse12" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Est-il facilement transportable ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse12" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Rien de plus facile : nous avons conçu un chariot monté sur roulettes sur lequel se verrouille la malle (disponible dans les Options sur la page <a href="/configurateur">Choisir mon Campinambulle</a>). Vous pourrez ainsi la déplacer sans effort de son lieu de stockage à votre véhicule. De plus, la malle est munie de 2 poignées latérales afin de la soulever aisément.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse13" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Est-il lourd ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse13" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Non. Le poids à vide du modèle “Cuisine-Car“ est d’environ 30 kg (une fois les tiroirs et la couchette enlevés). Vous pouvez même le charger seul(e) dans votre véhicule (<a href="#videos">voir la vidéo Mode d’emploi</a>). Pour charger votre malle, tout comme pour déplacer une commode, il vous suffira d’ôter les tiroirs puis de les remettre une fois la malle mise en place..</p>
+                  </div>
+                </div>
+
+                
+                <div class="accordion-heading">
+                  <a href="#collapse14" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Combien de temps prend l’installation ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse14" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Moins de 5 minutes ! Votre malle de voyage sera montée dans nos ateliers en fonction des options que vous aurez choisies. Elle est donc livrée prête à l'emploi. Il vous restera simplement à la charger à l'arrière de votre véhicule. Vous n’avez pas besoin d’outil ni de compétences techniques particulières.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse14" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Combien de temps prend l’installation ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse14" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Moins de 5 minutes ! Votre malle de voyage sera montée dans nos ateliers en fonction des options que vous aurez choisies. Elle est donc livrée prête à l'emploi. Il vous restera simplement à la charger à l'arrière de votre véhicule. Vous n’avez pas besoin d’outil ni de compétences techniques particulières.</p>
+                  </div>
+                </div>
+
+                
+                <div class="accordion-heading">
+                  <a href="#collapse15" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">Comment fixer mon Campinambulle ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse15" style="height: auto;">
+                  <div class="accordion-inner">
+Au sol, avec la sangle à cliquet (fournie) passée dans les poignées latérales et sur les points d'ancrage au sol disponibles dans les voitures (<a href="#videos">voir la vidéo Mode d’emploi dans l’onglet Vidéos</a> ou sur le DVD fourni à la livraison).
+                    <p>.</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="span4">
+            <h3>Entretien</h3>
+            <div class="accordion">
+              <div class="accordion-group">
+                
+                <div class="accordion-heading">
+                  <a href="#collapse21" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle">Comment le nettoyer ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse21" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Au moyen d'une éponge douce et d'eau savonneuse (un produit dégraissant ordinaire). Ne pas utiliser de produits abrasifs. Si une tache devait persister sur les parties stratifiées (table, fonds de tiroirs et façades), et uniquement sur celles-ci, vous pouvez utiliser un chiffon imbibé d'acétone.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse22" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle">Puis-je le laisser sous la pluie ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse22" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Non, il n'a pas été conçu pour résister aux intempéries, bien que les bois aient été protégés. C'est un mobilier d'intérieur. En cas d'averse soudaine, nous vous conseillons de sécher les parties mouillées et de vous mettre à l'abri... Pour faire face aux intempéries, nous vous proposons deux solutions. Nous avons sélectionné pour vous un Auvent indépendant qui se fixe à l’arrière du véhicule.</p>  
+                    <img src="/img/faq/an-Auvent-independant.jpg" alt="Auvent indépendant">
+                    <p>Vous le trouverez dans les Équipements Complémentaires de la page “Choisir mon Campinambulle”. La deuxième solution, plus rapide à mettre en place (en mode itinérant) est le Tarp que nous vendons aussi dans les Équipements Complémentaires de la page <a href="/configurateur">Choisir mon Campinambulle</a>. À vous de voir quelle solution vous correspond le mieux. Et entre nous : si les mauvaises conditions météorologiques persistent, et si vous en avez le loisir, n'hésitez pas : changez de région et rendez-vous là où le soleil brille... Votre Campinambulle vous procure cette souplesse-là : sitôt arrivés, déjà installés et sitôt partis ! Voici une manière originale de partir à l'aventure, de vivre l'imprévu, à la découverte d'autres paysages et d'autres coutumes... Toujours en plein air, au plus près de la nature et au soleil... Campinambulle est aussi conçu pour tous ceux qui ont l'esprit voyageur, en France ou à l'étranger.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse23" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle">SAV Malle de voyage ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse23" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts, nous réparerons ou nous procéderons au remplacement de l'élément concerné. Au préalable, nous vous ferons parvenir un devis détaillé du montant des travaux. Nous interviendrons après confirmation écrite de votre accord et encaissement de votre chèque. Les frais de port seront à votre charge et figureront sur le devis, à moins que vous ne souhaitiez venir sur notre site de fabrication, à St Gérand-le-Puy. Nous vous recevrons avec plaisir.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse24" data-parent="#accordion3" data-toggle="collapse" class="accordion-toggle">SAV Équipements complémentaires ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse24" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Les équipements complémentaires ont une garantie fabricant indiquée sur votre facture. Si vous avez un problème sur un produit, signalez-le nous et nous vous indiquerons la marche à suivre pour renvoyer le produit en SAV.</p>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+
+
+
+          <div class="span4">
+            <h3>Couchage</h3>
+            <div class="accordion">
+              <div class="accordion-group">
+                
+                <div class="accordion-heading">
+                  <a href="#collapse31" data-parent="#accordion4" data-toggle="collapse" class="accordion-toggle">Puis-je vraiment dormir dans ma voiture ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse31" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>La réponse est oui ! Il faut juste qu'il y ait 2 m entre l'arrière fermé (hayon ou portes), et les sièges avant, repoussés à leur maximum vers l'avant de votre voiture. La banquette ou les sièges arrières doivent tous être repliés. La couchette est prévue pour recevoir 2 matelas de 60 cm de large et 190 de long que nous vendons dans les Équipements complémentaires sur la page <a href="/configurateur">Choisir Mon Campinambulle</a>.</p>
+                  </div>
+                </div>
+                
+                <div class="accordion-heading">
+                  <a href="#collapse32" data-parent="#accordion4" data-toggle="collapse" class="accordion-toggle">Puis-je conduire avec la couchette dépliée ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse32" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Oui, la couchette a été conçue pour se replier partiellement et ainsi libérer uniquement les 2 places avant pour permettre la conduite. Matelas, oreillers et duvets peuvent donc rester en place pendant le voyage. Une solution gain de temps ++ en mode itinérant. Très pratique aussi pour une sieste !</p>
+                    <img src="/img/faq/photo-Y.jpg" alt="photo de la couchette en partie repliée et le poste de conduite libéré." />
+                  </div>
+                </div>
+
+                
+                <div class="accordion-heading">
+                  <a href="#collapse32" data-parent="#accordion4" data-toggle="collapse" class="accordion-toggle">Et l'aération ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse32" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Il est plus confortable d'ouvrir légèrement les fenêtres pour dormir. Nous vous conseillons de fixer 2 déflecteurs (non fournis) sur les portières avant. Ainsi, la nuit, vous éviterez la condensation et vous pourrez avoir l'aération désirée sans risque d'être mouillé en cas d'averse nocturne.</p>
+                  </div>
+                </div>
+
+                
+                <div class="accordion-heading">
+                  <a href="#collapse32" data-parent="#accordion4" data-toggle="collapse" class="accordion-toggle">Et pour l'intimité ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse32" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Plusieurs systèmes occultant les fenêtres existent. Nous ne les fabriquons pas mais ils sont faciles à trouver sur le marché : des kits de rideaux isolants, des stores de type SNCF, du film noir à poser pour teinter les vitres, etc... Des rideaux en tissu, faits maison, font aussi très bien l’affaire. <a href="#contact">Appelez-nous</a>, nous pouvons vous conseiller.</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+          <div class="span4">
+            <h3>Réfrigération et évier</h3>
+            <div class="accordion">
+              <div class="accordion-group">
+                
+                <div class="accordion-heading">
+                  <a href="#collapse41" data-parent="#accordion5" data-toggle="collapse" class="accordion-toggle">Et le frigo ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse41" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Notre 1er modèle de malle de voyage pour petits véhicules, le "Cuisine-car<sup>®</sup>", ne comporte pas de frigo. Dans les équipements complémentaires nous vous proposons une <a href="/configurateur">glacière ordinaire</a>  qui peut s'intégrer dans l'un ou l'autre des 3 compartiments de la malle, à la place du module tiroirs ou du module rangement par exemple. Nous vous proposons aussi une <a href="/configurateur">glacière électrique</a> à placer entre la banquette arrière et les sièges avant. La glacière électrique ne peut pas se loger dans la malle car il lui faut un certain volume d'air pour réfrigérer correctement et dans la malle, les essais ont démontré un mauvais fonctionnement. Une petite astuce : en plein été, nous avons “tenu” 5 jours sans rouler en maintenant le froid dans la glacière, tout simplement en y plaçant un bidon de 5 litres d'eau congelée. C'est l'effet de masse qui agit (2 bouteilles fondent trop vite). La perte de place occasionnée par le bidon est palliée par une organisation judicieuse de boîtes hermétiques, adaptées au volume disponible restant. Une autre solution consiste à s'équiper d'une 2ème batterie à décharge lente, mais le coût est nettement supérieur et la mise en oeuvre plus complexe.</p>
+                  </div>
+                </div>
+
+                
+                <div class="accordion-heading">
+                  <a href="#collapse42" data-parent="#accordion5" data-toggle="collapse" class="accordion-toggle">Et l’évier ?</a>
+                </div>
+                <div class="accordion-body in collapse" id="collapse42" style="height: auto;">
+                  <div class="accordion-inner">
+                    <p>Nous avons délibérément opté pour le système "bassines et bidons d'eau", d'une utilisation des plus pratique (rapide et simple à la fois), d'une efficacité éprouvée depuis des lustres et à un prix imbattable (<a href="#videos">voir la fin de la vidéo : Manger dans sa voiture</a>). Deux bassines (vaisselle et légumes) situées sous le réchaud du module cuisine, avec 2 <a href="/configurateur">bidons d'eau de 5 litres</a> + 1 réserve de 10 litres  sont suffisants pour 2 personnes par 24 heures, boisson comprise (les bidons sont en vente dans la section  <a href="/configurateur">Équipements Complémentaires</a>). L'ensemble est aisément logeable sous le réchaud et dans le véhicule. L'entretien est vraiment facile, et le système tout-à-fait écologique quand on utilise un produit dégraissant bio-dégradable. Par ailleurs, il est plus aisé de remplir et d'utiliser des petits bidons que des gros.
+Nous avons testé le système “évier-robinet”, pour faire "comme à la maison", mais : un tout petit évier inox + 1 pompe électrique + 1 robinet escamotable + la tuyauterie + 1 bidon de 10 litres d'eau propre + 1 bidon de 10 L d'eaux usées + 1 produit de nettoyage bactéricide = Coût élevé de l'ensemble = Perte de place considérable = Impossibilité de positionner un réchaud à 2 feux puisqu'il y a l'évier et donc : impossibilité de manger chaud la viande et les légumes ou de boire ensemble, à plusieurs, un thé et un café, par exemple = Problème d'hygiène à défaut d'un soigneux nettoyage anti-­bactérien après usage = Dépense supplémentaire répétée pour l’achat d’un produit bactéricide = Perte de temps = Consommation d'eau importante parce que débit difficilement contrôlable par pulsion électrique = Autonomie réduite et donc contrainte de s’approvisionner en eau plus souvent..." Bref : bassines et bidons = le top !</p>
+                  </div>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+
+
+
+
+
+
+
 
       <div id="contact" class="spaceT40">
         <h2 class="page-header">Contact</h2>
@@ -494,230 +897,19 @@
               <abbr title="Courriel">Courriel :</abbr> <a href="mailto: bonjour@campinambulle.com"> bonjour@campinambulle.com</a><br>
             </address>
           </div>
-          <div class="span8">
-            <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=+Les+Mallards+%C2%BB+03150+Saint-G%C3%A9rand-le-Puy&amp;aq=&amp;sll=45.289635,5.550951&amp;sspn=2.113823,4.938354&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Les+Mallards,+03150+Saint-G%C3%A9rand-le-Puy,+Allier,+Auvergne&amp;ll=46.276846,3.550814&amp;spn=16.602695,39.506836&amp;z=4&amp;output=embed&iwloc=near"></iframe>
+          <div class="span5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6002107.438346318!2d0.8699735449734559!3d42.7308903946229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f136c3ae9e6f51%3A0x1b5e90dba96ca956!2sSaint-G%C3%A9rand-le-Puy!5e0!3m2!1sfr!2sfr!4v1393873317034" width="400" height="300" frameborder="0" style="border:0"></iframe>
+          </div>
+          <div class="span3">
+            <img src="/img/logo-auvergne-nouveau-monde.jpg" alt="Auvergne Nouveau Monde">
           </div>
         </div>
       </div>
 
-      <div class="spaceT40 center">
-        <a class="btn btn-large btn-success" href="configurateur" >Créez gratuitement votre aménagement <i class="icon-caret-right spaceL10"></i></a>
-      </div>
 
-      <div id="faq" class="spaceT40">
-        <h2 class="page-header">FAQ : Réponses aux questions les plus courantes sur le Campinambulle</h2>
-        <div class="row-fluid">
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseOne" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">1. Est-ce que ma voiture pourra être équipée ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseOne" style="height: auto;">
-                  <div class="accordion-inner">
-                    Il a été conçu, tout spécialement, pour s'adapter à l'immense majorité des véhicules de type :
-                    <ul>
-                      <li>ludospaces et monospaces tels que Kangoo et Espace pour n'en citer que 2</li>
-                      <li>4 X 4...</li>
-                      <li>mini-vans...</li>
-                      <li>véhicules utilitaires...</li>
-                    </ul>
 
-                    Les dimensions totales de la malle de voyage, modèle "Cuisine-car" sont les suivantes :
-                    <ul>
-                      <li>largeur :     1,12 m (au sol)</li>
-                      <li>profondeur :  0,61 m</li>
-                      <li>hauteur :     0,55 m – et avec la couchette : 0,60 m</li>
-                    </ul>
 
-                    Il ne vous reste qu'à vérifier avec soin les mesures du coffre de votre véhicule avant de passer votre commande. Vous serez ainsi assuré qu'elle rentre parfaitement dans celui-ci.
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseTwo" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">2. Dois-je venir le chercher en Auvergne ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseTwo" style="height: auto;">
-                  <div class="accordion-inner">
-                    Pas nécessairement, si vous le désirez vous serez livré à vos frais, à domicile, par transporteur. Le prix de la livraison sera indiqué sur le devis. Vous le recevrez environ 3 à 4 semaines après réception de votre commande. Développement durable et esprit éco-responsable oblige, nous avons conçu tout exprès une caisse d’emballage “double vie”, en bois, qui protégera parfaitement votre Campinambulle pendant son transport. La façade et le dessus se dévissent pour le sortir aisément. Cette caisse s’ouvrira par le dessus, une fois la façade revissée.  Alors, surtout ne la jetez pas : elle vous sera précieuse, réutilisée en malle de rangement multi-usages (contenance 650 litres) <a href="img/faq/Photo_P_Caisse_expedition_005.jpg" target="_blank">Voir photo de la caisse d’expédition "double vie"</a>. Bien sûr vous pouvez aussi venir chercher votre Campinambulle. Nous sommes situés <a href="http://goo.gl/maps/tFyfj" target="_blank">dans le nord de l'Auvergne</a>, au centre de la France. Vous pourrez alors faire l'économie des frais de livraison et en profiter pour visiter notre atelier de fabrication. Vous pourrez aussi bénéficier des conseils techniques de notre concepteur et de notre expérience de "grands voyageurs" en Campinambulle.
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseThree" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">3. Je peux l'essayer ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseThree" style="height: auto;">
-                  <div class="accordion-inner">
-                    Oui, vous pouvez venir voir le produit et même l'essayer dans votre véhicule. En découvrant sa souplesse d'utilisation et toutes les possibilités qu'il vous offre, je suis sûr que vous l’adopterez. Alors surtout n'hésitez pas, nous sommes à votre disposition !
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseFour" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">4. Dois-je modifier ma voiture pour l'installer ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseFour" style="height: auto;">
-                  <div class="accordion-inner">
-                    Non, aucune modification sur votre voiture n'est nécessaire. Vous conservez toutes les places assises existantes.
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseFive" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">5. Est-il facilement de transportable ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseFive" style="height: auto;">
-                  <div class="accordion-inner">
-                    Rien de plus facile : en option, un chariot monté sur roulettes est prévu afin de verrouiller la malle de voyage dessus. Vous pourrez ainsi la déplacer sans effort de son lieu de stockage à votre véhicule (voir cette option chariot en cliquant sur la fiche technique du chariot dans "Créer gratuitement mon aménagement"). La malle est munie de 2 poignées latérales. 
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseSix" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">6. Le Campinambulle est-il lourd ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseSix" style="height: auto;">
-                  <div class="accordion-inner">
-                    Non. Le poids à vide est de 30 kg. Nous vous conseillons toutefois d'être deux pour le transporter. Pour charger votre Campinambulle, tout comme pour déplacer une commode, il vous suffira d’ôter les tiroirs puis de les remettre une fois la malle mise en place.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseSeven" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">7. Combien de temps dois-je prévoir pour l'installation ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseSeven" style="height: auto;">
-                  <div class="accordion-inner">
-                    Moins de 5 minutes ! Votre malle de voyage sera montée dans nos ateliers en fonction des options que vous aurez choisies. Elle est donc livrée prête à l'emploi. Il vous restera simplement à la charger à l'arrière de votre véhicule.
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseEight" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">8. Me faut-il des outils ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseEight" style="height: auto;">
-                  <div class="accordion-inner">
-                    Non, vous n'avez besoin d'aucun outil, ni de compétences techniques particulières pour charger votre Campinambulle, c'est une simple malle de voyage... Seulement deux actions : la charger et la sangler (sangle fournie).
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseNine" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">9. Dois-je fixer mon Campinambulle ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseNine" style="height: auto;">
-                  <div class="accordion-inner">
-                    Oui, au sol, avec la sangle à cliquet passée dans les poignées latérales et sur les points d'ancrage au sol, disponibles dans les voitures. (Voir La vidéo de démonstration dans l’onglet Vidéos et sur le DVD fourni à la livraison.)
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row-fluid">
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseTen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">10. Comment le nettoyer ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseTen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Au moyen d'une éponge douce et d'eau savonneuse (un produit dégraissant ordinaire). Ne pas utiliser de produits abrasifs. Si une tache devait persister sur toutes les parties stratifiées (table, fonds de tiroirs et façades), et uniquement sur celles-ci, vous pouvez utiliser un chiffon imbibé d'acétone. 
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseEleven" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">11. Puis-je vraiment dormir dans ma voiture ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseEleven" style="height: auto;">
-                  <div class="accordion-inner">
-                    La réponse est oui ! Il faut juste qu'il y ait 2 m entre l'arrière fermé (hayon ou portes), et les sièges avant, repoussés à leur maximum vers l'avant de votre voiture. La banquette ou les sièges arrières doivent tous être repliés. Par exemple, sur les véhicules cités plus haut dans la rubrique 1, cela convient parfaitement. Vous installez les 2 supports télescopiques alu et vous dépliez la couchette fixée sur la malle de voyage. En 3 minutes le tour est joué. La couchette est prévue pour recevoir 2 matelas de 60 cm de large sur 2 m de long (non fournis). Pour notre part, nous avons opté pour des matelas auto gonflants, tout à la fois pratiques et très confortables...
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseTwelve" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">12. Dois-je installer mon couchage tous les jours ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseTwelve" style="height: auto;">
-                  <div class="accordion-inner">
-                    Non, la couchette a été conçue pour se replier partiellement et ainsi libérer uniquement les 2 places avant pour permettre la conduite. Matelas, oreillers et duvets peuvent donc rester en place pendant le voyage. Une solution gain de temps ++ en mode itinérant. Une solution vraiment pratique, même pour une sieste ! <a href="docs/photos/photo-Y.jpg" target="_blank">Voir la photo de la couchette en partie repliée et le poste de conduite libéré.</a>
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseThirteen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">13. Et l'aération ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseThirteen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Il est plus confortable d'ouvrir légèrement les fenêtres. Nous vous conseillons de fixer 2 déflecteurs (non fournis) sur les portières avant. Ainsi, la nuit dans votre Campinambulle, vous éviterez la condensation et vous pourrez avoir l'aération désirée sans risque d'être mouillé en cas d'averse nocturne.  
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseFourteen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">14. Et pour l'intimité ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseFourteen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Plusieurs systèmes occultant les fenêtres existent. Nous ne les fabriquons pas mais ils sont faciles à trouver sur le marché : des kits de rideaux isolants, des stores de type SNCF, du film noir à poser pour teinter les vitres,  etc... Des rideaux en tissu faits maison font aussi très bien l’affaire. Appelez-nous, nous pouvons vous conseiller.  
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseFifteen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">15. Je peux le laisser sous la pluie ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseFifteen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Non, il n'a pas été conçu pour résister aux intempéries, bien que les bois aient été protégés. C'est un mobilier d'intérieur. En cas d'averse soudaine, nous vous conseillons de sécher les parties mouillées et de vous mettre à l'abri... Pour information, de nombreux systèmes existent de nos jours sur le marché (auvents  indépendants et tentes). Ils s'adaptent efficacement à l'arrière des véhicules et permettent de rester bien au sec. Et entre nous : si les mauvaises conditions météorologiques persistent, et si vous en avez le loisir, n'hésitez pas : changez de région et rendez-vous là où le soleil brille...  Votre Campinambulle vous procure cette souplesse-là : sitôt arrivés, déjà installés et sitôt partis ! Voici une manière originale de partir à l'aventure, de vivre l'imprévu, à la  découverte d'autres paysages et d'autres coutumes... Toujours en plein air, au plus près de la nature et au soleil... Campinambulle est aussi conçu pour tous ceux qui ont l'esprit voyageur, en France ou à l'étranger.
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseSixteen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">16. Et pour d'éventuelles réparations ?</a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseSixteen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts, nous réparerons ou nous procèderons au remplacement de l'élément concerné. Au préalable, nous vous ferons parvenir un devis détaillé du montant des travaux. Nous interviendrons après confirmation écrite de votre accord et encaissement de votre chèque. Les frais de port seront à votre charge et figureront sur le devis, à moins que vous ne souhaitiez venir sur notre site de fabrication, à St Gérand-le-Puy. Nous vous recevrons avec plaisir.  
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="span4">
-            <div class="accordion">
-              <div class="accordion-group">
-                <div class="accordion-heading">
-                  <a href="#collapseSeventeen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle ss-standard">17. Comment je paye ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseSeventeen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Au comptant à la commande, par chèque, virement, mandat ou espèces. Nos prix s'entendent TTC départ atelier, frais de port en sus. Après encaissement du règlement, la commande sera expédiée. Voir le paragraphe correspondant de nos "Conditions Générales de vente" dans la rubrique "Mentions légales".  
-                  </div>
-                </div>
-                <div class="accordion-heading">
-                  <a href="#collapseEighteen" data-parent="#accordion2" data-toggle="collapse" class="accordion-toggle">18. Si je veux un aménagement sur-mesure ? </a>
-                </div>
-                <div class="accordion-body in collapse" id="collapseEighteen" style="height: auto;">
-                  <div class="accordion-inner">
-                    Si vous souhaitez compléter ou modifier votre aménagement existant, ou si vous souhaitez un aménagement particulier pour votre équipement sportif ou votre matériel professionnel par exemple, nous pouvons répondre à votre demande.	 <br />
-                    C'est le 2ème volet de notre activité et de notre savoir-faire : <br />
-                    <strong>le sur-mesure à "Vos" mesures.</strong> Notre bureau d'études est à votre disposition. Contactez-nous et nous étudierons ensemble votre projet (recueil de vos besoins, de vos contraintes et de vos attentes). Cette étude est gratuite. Nous procéderons comme suit :
-                    <ul>
-                      <li>Analyse des données concernant le projet – Devis descriptif et estimatif des aménagements et équipements souhaités, avec délais de fabrication et d'installation.</li> 
-                      <li>A réception de ce devis signé par vous et valant confirmation de 	 votre commande, et après encaissement d'un acompte représentant 40 % du montant des travaux, nous mettrons votre projet en fabrication dans nos ateliers.</li> 
-                      <li>Le solde, à savoir les 60 % restants, seront versés au moment de 	l'installation dans votre véhicule en nos ateliers.</li> 
-                    </ul>
-                    <strong>Photos de réalisations sur-mesure : </strong>
-                    <ul>
-                      <li><a href="img/faq/Photo_U_Partner_Sur_mesure_1739.jpg" target="_blank">Agencement  intérieur d’un Partner (Peugeot)</a></li> 
-                      <li><a href="img/faq/Photo_V_Transporter_Sur_mesure.jpg" target="_blank">Aménagement arrière d’un Transporter (Volskwagen)</a></li> 
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
 
       <div id="footer" class="spaceT40 spaceB25">
         Copyright © - Campinambulle.com - 2013 - <a href="cgv" >Mentions légales</a>
@@ -738,6 +930,33 @@
     <script>
       $(document).ready(function() {
         Campinambulle.init();
+      });
+    </script>
+
+    <script type="text/javascript" src="http://campinambulle.tumblr.com/api/read/json"></script>
+    <script type='text/javascript'>
+      $(function(){
+        $("#posts").html('');
+        var 
+          posts_count = parseInt(tumblr_api_read["posts-total"]),
+          loop = 3;
+
+          if( posts_count < 3 )
+            loop = posts_count;
+        
+
+        for (var i=0;i<loop;i++){
+
+        var wrapper = $("<div class='wrapper'></div>");
+          // title
+          wrapper.append( "<h4 class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"' target='_blank'>"+tumblr_api_read["posts"][i]["regular-title"]+"</a></h4>" )
+          // text
+          wrapper.append( tumblr_api_read["posts"][i]["regular-body"].substring(0,400) + "..." );
+          // link
+          wrapper.append( "<p class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"'>Lire la suite...</a></p>" )
+
+          $("#posts").append( wrapper );
+        }
       });
     </script>
 
