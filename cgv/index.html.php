@@ -30,7 +30,7 @@
   <body>
     <?php include('../partials/header.inc.php'); ?>
 
-    <div class="container  header-top-space" >
+    <div class="container" >
       <div class="page-header">
         <h1>CONDITIONS GENERALES DE VENTE</h1>
       </div>
@@ -59,7 +59,7 @@
       <h2 class="spaceT40">IV - DELAIS ET CONDITIONS DE LIVRAISON :</h2>
       <ul class="unstyled">
         <li>4/1 - Toutes nos marchandises sont expédiées frais de port en sus, sur la France Continentale.</li>
-        <li>4/2 - Délais de livraison : 3 à 4 semaines à réception de commande. Ces délais sont donnés à titre indicatif et les retards éventuels n'autorisent pas l'acheteur à refuser la marchandise ou à réclamer des dommages et intérêts.</li>
+        <li>4/2 - Délais de livraison : 4 à 6 semaines à réception de commande. Ces délais sont donnés à titre indicatif et les retards éventuels n'autorisent pas l'acheteur à refuser la marchandise ou à réclamer des dommages et intérêts.</li>
         <li>4/3 – L'installation, si besoin est, peut être effectuée par nos services en nos ateliers ou par un monteur spécialisé du choix de l'acheteur à ses frais.</li>
         <li>4/4 - Les obligations du vendeur seront suspendues de plein droit et sans formalités en cas d'événements tels que : incendie, inondation, grève, épidémie, interruption dans les transports, impossibilité d'approvisionnement ou survenance de circonstances empêchant l'exécution normale du contrat dans des conditions normales pour le vendeur .</li>
         <li>4/5 - Le vendeur tiendra l'acheteur au courant, en temps opportun, des cas ou événements ci-dessus, et lui fera connaître ses nouveaux délais de livraison.</li>
@@ -71,7 +71,7 @@
         <li>5/1 - Nos prix s'entendent départ atelier toutes taxes françaises comprises (T.T.C.).</li>
         <li>5/2 - En cas de modification de tarif, un nouveau bordereau de commande sera établi.</li>
         <li>5/3 - a) Pour les produits référencés : paiement comptant par chèque, virement, mandat ou espèces à la commande (frais de port en sus).</li>
-        <li>5/3 - b) En ce qui concerne les créations sur-mesure : acompte à la commande 40 %, le solde soit 60% à l'installation et ou la mise en service dans nos ateliers.</li>
+        <li>5/3 - b) En ce qui concerne les créations sur-mesure : acompte à la commande 60 %, le solde soit 40% à l'installation et (ou) la mise en service dans nos ateliers.</li>
         <li>5/4 - En cas de non paiement d'une fraction du prix à son échéance, ou en cas de cessation de commerce ou de cessation de fonds, la totalité du solde restant dû sera, de plein droit, immédiatement exigible, sans qu'il soit besoin d'aucune mise en demeure, protêt ou autre formalité préalable. En outre, la déchéance du terme étant réputée emportée sans mise en demeure, obligera l'acheteur à :</li>
         <li>a) rembourser les frais de banque et de protêt, ainsi que tous frais et honoraires de recouvrement.</li>
         <li>b) à compter du 1er juillet 1993, la loi n° 92-1442 du 31/12/1992, nous oblige à insérer dans nos conditions générales de vente un texte précisant les modalités de calcul et les conditions dans lesquelles des pénalités sont appliquées en cas de retard de paiement: « Tout retard de paiement donnera lieu, de plein droit et sans mise en demeure préalable, à pénalités de retard calculées sur la base de une fois et demie le taux de l'intérêt légal ». Le taux d'intérêt légal est fixé chaque année par décret pour toute l'année civile.</li>
