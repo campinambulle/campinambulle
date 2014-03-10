@@ -18,6 +18,19 @@ Campinambulle.carousel = function() {
     hide: true,
     toggle: true
   });
+  $(document).on(
+    'click',
+    '.accordion-close',
+    function(event) {
+        event.preventDefault();
+        var parent = $(this).parent().parent(),
+            body = parent.find('.accordion-body');
+        parent.collapse('toggle');
+        parent.on('hidden', function(event) {
+            event.stopPropagation();
+        });
+    }
+  );
 };
 
 Campinambulle.computePrice = function() {
@@ -48,6 +61,11 @@ Campinambulle.manageCheckboxStatus = function(self) {
   var checkboxClickedStatus = $(self).attr('checked');
   $("input[name='"+checkboxClicked.attr('name')+"']").attr('checked', false);
   checkboxClicked.attr('checked', checkboxClickedStatus);
+};
+
+Campinambulle.manageInputQuanty = function(self) {
+  var inputQuantity = $(self);
+  $(inputQuantity).prev().attr('checked', true);
 };
 
 Campinambulle.checkRequiredField = function(fieldId) {
@@ -109,6 +127,9 @@ Campinambulle.init = function() {
       Campinambulle.manageCheckboxStatus(this);
       Campinambulle.highlightRowChecked(this);
       Campinambulle.computePrice();
+    });
+    $("input[type=number]").change(function(e) {
+      Campinambulle.manageInputQuanty(this);
     });
     Campinambulle.submitContactForm();
   }

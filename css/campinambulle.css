@@ -10,6 +10,10 @@
   text-align: right;
 }
 
+.push-right {
+  float: right;
+}
+
 .clear {
   clear: both;
 }
@@ -169,9 +173,9 @@ h3 {
 }
 
 #videos {
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 300;
-  line-height: 34px;
+  line-height: 31px;
 }
 
 #videos .slogan {
@@ -230,6 +234,10 @@ h3 {
 #faq .accordion-heading a {
   color: #f04e23;
 }
+.accordion-close {
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 #nos-atouts .row {
   text-align: center;
@@ -259,6 +267,12 @@ h3 {
 #nos-atouts ul i,
 #nos-atouts .btn i {
   font-size: 18px;
+}
+
+
+
+#vehicules-compatibles { 
+  font-size: 16px; 
 }
 
 #contact i {
@@ -320,19 +334,39 @@ h3 {
   font-weight: bold;
 }
 
-#configurateur .prix-total {
-  font-size: 31.5px;
-  color: #f04e23;
-  font-weight: bold;
-  padding-bottom: 1em;
-  border-bottom: solid 1px #eee;
+
+#footer-total {
+  position: fixed;
+  bottom: 0;
+  background-color: #fafafa;
+  width: 100%;
+  padding: 0.5em 0;
+  border-top: 1px solid #dddddd;
 }
 
+.prix-total {
+  font-size: 26px;
+  color: #f04e23;
+  font-weight: bold;
+}
+
+#configurateur .product_basic label {
+  font-size: 22px;
+  font-weight: bold;
+}
+#configurateur .product_basic label .ref {
+  font-size: 15px;
+  font-weight: normal;
+}
 
 #configurateur .contact {
   font-size: 31.5px;
   line-height: 36.5px;
   font-weight: 300;
+}
+
+#configurateur .complement_section {
+  font-weight: bold;
 }
 
 #configurateur a {
@@ -387,6 +421,10 @@ h3 {
 }
 
 /************************/
+
+.page-header {
+  padding-top: 115px;
+}
 
 #pressePage .page-header img {
   height: 45px;

@@ -6,7 +6,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Créer moi-même mon Campinambulle - Campinambulle</title>
+    <title>Choisir mon Campinambulle</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
 
@@ -30,15 +30,6 @@
   <body>
     <?php include('../partials/header.inc.php'); ?>
 
-    <div class="container" >
-      <h1 class="center spaceT25">
-        Choisir mon Campinambulle
-      </h1>
-      <h4 class="center">
-        <img src="/img/produit/fabrique-en-france.png" alt="Fabriqué en france" />
-        Par le Maître Ebéniste
-      </h4>
-    </div>
 
     <div id="configurateur" class="container spaceB25">
       <div id="rules" class="spaceT40 center">
@@ -49,7 +40,7 @@
 <?php
 function stringNumberToFloat( $number ) 
 {
-  return floatval(str_replace(',', '.', $number));
+  return floatval(str_replace(',', '.', preg_replace('/\s+/', '', $number)));
 }
 
 function slugify($text)
@@ -84,24 +75,24 @@ $modeles = array(
   "Campi-Forez" => array( 
       'title' => 'Campi-Forez', 
       'description' => "malle avec table à rallonge", 
-      'pdf_url' => "/fiches/MCCU.pdf", 
-      'price' => '1082',
+      'pdf_url' => "/configurateur/fiches/MCCU.pdf", 
+      'price' => '1 082',
       'configs' => array(
         '1' => array( 'photo_href' => '1-MCCU-0455.jpg', 'photo_src' => 'rallonge-0455.jpg')
       )),
   "Campi-Sancy" => array( 
       'title' => 'Campi-Sancy', 
       'description' => "malle avec table à rallonge + couchette", 
-      'pdf_url' => "/fiches/FT9-COS.pdf", 
-      'price' => '1777',
+      'pdf_url' => "/configurateur/fiches/FT9-COS.pdf", 
+      'price' => '1 777',
       'configs' => array(
         '1' => array( 'photo_href' => 'couchette-0462.jpg', 'photo_src' => 'couchette-0462.jpg')
       )),
   "Campi-Lioran" => array( 
       'title' => 'Campi-Lioran', 
       'description' => "malle équipée avec table à rallonge", 
-      'pdf_url' => "/fiches/FT-Campi-Lioran.pdf", 
-      'price' => '2096',
+      'pdf_url' => "/configurateur/fiches/FT-Campi-Lioran.pdf", 
+      'price' => '2 096',
       'configs' => array(
         '1' => array( 'photo_href' => 'rallonge-0455.jpg',  'photo_src' => 'rallonge-0455.jpg' ),
         '2' => array( 'photo_href' => 'tablette-0431.jpg',  'photo_src' => 'tablette-0431.jpg' ),
@@ -111,8 +102,8 @@ $modeles = array(
   "Campi-Val-d-Allier" => array( 
       'title' => 'Campi-Val d’Allier', 
       'description' => "malle équipée avec table à rallonge + couchette", 
-      'pdf_url' => "/fiches/FT-Campi-Val-Allier.pdf", 
-      'price' => '2791',
+      'pdf_url' => "/configurateur/fiches/FT-Campi-Val-Allier.pdf", 
+      'price' => '2 791',
       'configs' => array(
         '1' => array( 'photo_href' => 'couchette-0462.jpg', 'photo_src' => 'couchette-0462.jpg' ),
         '2' => array( 'photo_href' => 'tablette-0431.jpg',  'photo_src' => 'tablette-0431.jpg' ),
@@ -126,36 +117,36 @@ $options = array(
   //"1" => array( 
       //'title' => 'Réchaud gaz 2 feux', 
       //'description' => "", 
-      //'pdf_url' => "/fiches/FT-Rechaud.pdf", 
+      //'pdf_url' => "/configurateur/fiches/FT-Rechaud.pdf", 
       //'price' => '60',
       //'photo' => array( 'photo_href' => '8-PAR-0414.jpg?1368086951', 'photo_src' => '8-PAR-0414.jpg?1368086951')
       //),
   "2" => array( 
       'title' => 'Rallonge de pied de table pour véhicules 4X4', 
       'description' => "", 
-      'pdf_url' => "/fiches/RPT5.pdf", 
-      'price' => '24,00',
+      'pdf_url' => "/configurateur/fiches/RPT5.pdf", 
+      'price' => '24',
       'photo' => array( 'photo_href' => '9-RPT5-0449.jpg', 'photo_src' => '9-RPT5-0449.jpg')
       ),
   "3" => array( 
       'title' => 'Chariot de transport', 
       'description' => "", 
-      'pdf_url' => "/fiches/CHT.pdf", 
-      'price' => '118,00',
+      'pdf_url' => "/configurateur/fiches/CHT.pdf", 
+      'price' => '118',
       'photo' => array( 'photo_href' => '10-CHT-Detail-Roulette-et-Fermeture.jpg', 'photo_src' => '10-CHT-Detail-Roulette-et-Fermeture.jpg')
       ),
   "4" => array( 
       'title' => 'Décor vertical en ronce de noyer véritable', 
       'description' => "", 
-      'pdf_url' => "/fiches/Decor-vertical.pdf", 
-      'price' => '87,00',
+      'pdf_url' => "/configurateur/fiches/Decor-vertical.pdf", 
+      'price' => '87',
       'photo' => array( 'photo_href' => '11-Decor-vertical.jpg', 'photo_src' => '11-Decor-vertical.jpg')
       ),
   "5" => array( 
       'title' => 'Décor oblique en ronce de noyer véritable', 
       'description' => "", 
-      'pdf_url' => "/fiches/Decor-oblique.pdf", 
-      'price' => '142,00',
+      'pdf_url' => "/configurateur/fiches/Decor-oblique.pdf", 
+      'price' => '142',
       'photo' => array( 'photo_href' => '12-Decor-oblique.jpg', 'photo_src' => '12-Decor-oblique.jpg')
       ),
 );
@@ -164,36 +155,36 @@ $modules = array(
   "1" => array( 
       'title' => 'Module cuisine', 
       'description' => "<small>(réchaud en vente dans les Équipements complémentaires)</small>", 
-      'pdf_url' => "/fiches/MOCSU.pdf", 
-      'price' => '297,00',
-      'photo' => array( 'photo_href' => '2-MOCSU-0429.jpg', 'photo_src' => '2-MOCSU-0429.jpg')
+      'pdf_url' => "/configurateur/fiches/MOCSU.pdf", 
+      'price' => '297',
+      'photo' => array( 'photo_href' => 'Config-Module-cuisine-043.jpg', 'photo_src' => 'Config-Module-cuisine-043.jpg')
       ),
   "2" => array( 
       'title' => 'Module 3 tiroirs', 
       'description' => "", 
-      'pdf_url' => "/fiches/FT-Module-3-tiroirs.pdf", 
-      'price' => '318,00',
+      'pdf_url' => "/configurateur/fiches/FT-Module-3-tiroirs.pdf", 
+      'price' => '318',
       'photo' => array( 'photo_href' => '3-tiroirs-0094.jpg', 'photo_src' => '3-tiroirs-0094.jpg')
       ),
   "3" => array( 
       'title' => 'Module 2 tiroirs', 
       'description' => "", 
-      'pdf_url' => "/fiches/FT-Module-2-tiroirs.pdf", 
-      'price' => '249,00',
+      'pdf_url' => "/configurateur/fiches/FT-Module-2-tiroirs.pdf", 
+      'price' => '249',
       'photo' => array( 'photo_href' => '2-tiroirs-0094.jpg', 'photo_src' => '2-tiroirs-0094.jpg')
       ),
   "4" => array( 
       'title' => 'Module rangement', 
       'description' => "", 
-      'pdf_url' => "/fiches/6-MORAU-0421.jpg", 
-      'price' => '399,00',
+      'pdf_url' => "/configurateur/fiches/6-MORAU-0421.jpg", 
+      'price' => '399',
       'photo' => array( 'photo_href' => 'rangement-0421.jpg', 'photo_src' => 'rangement-0421.jpg')
       ),
   "5" => array( 
       'title' => 'Module couchette à fixer sur la malle', 
       'description' => "", 
-      'pdf_url' => "/fiches/FT9-COS.pdf", 
-      'price' => '695,00',
+      'pdf_url' => "/configurateur/fiches/FT9-COS.pdf", 
+      'price' => '695',
       'photo' => array( 'photo_href' => 'couchette-0462.jpg', 'photo_src' => 'couchette-0462.jpg')
       ),
 
@@ -205,7 +196,7 @@ $complements = array(
         'pack' => true,
         'title' => "Pack complet cuisine", 
         'description' => "(1 réchaud + 1 glacière élect. + 2 jerrycans de 5 litres + 1 de 10 litres)", 
-        'pdf_url' => "/fiches/PACK-COMPLET-CUISINE.pdf", 
+        'pdf_url' => "/configurateur/fiches/PACK-COMPLET-CUISINE.pdf", 
         'price' => '162,90',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
@@ -213,7 +204,7 @@ $complements = array(
         'pack' => false,
         'title' => "Réchaud gaz 2 feux", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT0-Rechaud-Camping-gaz.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT0-Rechaud-Camping-gaz.pdf", 
         'price' => '39,90',
         'photo' => array( 'photo_href' => '8-PAR-0414.jpg', 'photo_src' => '8-PAR-0414.jpg')
         ),
@@ -221,7 +212,7 @@ $complements = array(
         'pack' => false,
         'title' => "Glacière ordinaire 28 litres", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT1-glaciere-28-l.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT1-glaciere-28-l.pdf", 
         'price' => '74,90',
         'photo' => array( 'photo_href' => 'ax-glaciere-ordinaire.jpg', 'photo_src' => 'ax-glaciere-ordinaire.jpg')
         ),
@@ -229,7 +220,7 @@ $complements = array(
         'pack' => false,
         'title' => "Glacière ordinaire 26 litres", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT1-glaciere-electrique-26-l.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT1-glaciere-electrique-26-l.pdf", 
         'price' => '70,00',
         'photo' => array( 'photo_href' => 'ab-glaciere.jpg', 'photo_src' => 'ab-glaciere.jpg')
         ),
@@ -237,7 +228,7 @@ $complements = array(
         'pack' => false,
         'title' => "Jerrycan d'eau 5 litres", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT2-Jerrycan.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT2-Jerrycan.pdf", 
         'price' => '7,50',
         'photo' => array( 'photo_href' => 'ac-Jerrycan.jpg', 'photo_src' => 'ac-Jerrycan.jpg')
         ),
@@ -245,7 +236,7 @@ $complements = array(
         'pack' => false,
         'title' => "Jerrycan d'eau 10 litres", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT2-Jerrycan.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT2-Jerrycan.pdf", 
         'price' => '8,90',
         'photo' => array( 'photo_href' => 'ac-Jerrycan.jpg', 'photo_src' => 'ac-Jerrycan.jpg')
         )
@@ -255,7 +246,7 @@ $complements = array(
         'pack' => true,
         'title' => "Pack complet repas ", 
         'description' => "(2 chaises + 2 tabourets + 1 lanterne)", 
-        'pdf_url' => "/fiches/PACK-COMPLET-REPAS.pdf", 
+        'pdf_url' => "/configurateur/fiches/PACK-COMPLET-REPAS.pdf", 
         'price' => '96,60',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
@@ -263,7 +254,7 @@ $complements = array(
         'pack' => false,
         'title' => "Table valise avec 4 tabourets", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT3-Table-valise-avec-ses-4-tabourets.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT3-Table-valise-avec-ses-4-tabourets.pdf", 
         'price' => '75,00',
         'photo' => array( 'photo_href' => 'ad-Table.jpg', 'photo_src' => 'ad-Table.jpg')
         ),
@@ -271,7 +262,7 @@ $complements = array(
         'pack' => false,
         'title' => "Chaise", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT4-Chaise-Eco.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT4-Chaise-Eco.pdf", 
         'price' => '18,90',
         'photo' => array( 'photo_href' => 'ae-Chaise.jpg', 'photo_src' => 'ae-Chaise.jpg')
         ),
@@ -279,7 +270,7 @@ $complements = array(
         'pack' => false,
         'title' => "Tabouret à 3 pieds", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT5-Tabouret-a-3-pieds.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT5-Tabouret-a-3-pieds.pdf", 
         'price' => '9,90',
         'photo' => array( 'photo_href' => 'af-Tabouret.jpg', 'photo_src' => 'af-Tabouret.jpg')
         ),
@@ -287,7 +278,7 @@ $complements = array(
         'pack' => false,
         'title' => "Lanterne", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT6-Lanterne-rechargeable.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT6-Lanterne-rechargeable.pdf", 
         'price' => '39,00',
         'photo' => array( 'photo_href' => 'ag-Lanterne.jpg', 'photo_src' => 'ag-Lanterne.jpg')
         ),
@@ -297,7 +288,7 @@ $complements = array(
         'pack' => true,
         'title' => "Pack complet couchage 2 personnes", 
         'description' => "(2 matelas + 2 sacs de couchage jumelables + 2 oreillers + 1 drap 2 P)", 
-        'pdf_url' => "/fiches/PACK-COMPLET-COUCHAGE.pdf", 
+        'pdf_url' => "/configurateur/fiches/PACK-COMPLET-COUCHAGE.pdf", 
         'price' => '396,70',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
@@ -305,15 +296,15 @@ $complements = array(
         'pack' => false,
         'title' => "Matelas auto-gonflant", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT7-Matelas-autogonflant.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT7-Matelas-autogonflant.pdf", 
         'price' => '89,00',
         'photo' => array( 'photo_href' => 'ah-Matelas.jpg', 'photo_src' => 'ah-Matelas.jpg')
         ),
     "3" => array( 
         'pack' => false,
-        'title' => "Sac de couchage jumelables", 
+        'title' => "Sac de couchage jumelable", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT8-Sac-de-couchage.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT8-Sac-de-couchage.pdf", 
         'price' => '64,50',
         'photo' => array( 'photo_href' => 'ai-Sac-de-couchage.jpg', 'photo_src' => 'ai-Sac-de-couchage.jpg')
         ),
@@ -321,7 +312,7 @@ $complements = array(
         'pack' => false,
         'title' => "Oreiller", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT9-Oreiller-compressible.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT9-Oreiller-compressible.pdf", 
         'price' => '19,90',
         'photo' => array( 'photo_href' => 'aj-Oreiller.jpg', 'photo_src' => 'aj-Oreiller.jpg')
         ),
@@ -329,7 +320,7 @@ $complements = array(
         'pack' => false,
         'title' => "Drap pour sac de couchage 1P", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT10-Drap-pour-sac-de-couchage.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT10-Drap-pour-sac-de-couchage.pdf", 
         'price' => '24,30',
         'photo' => array( 'photo_href' => 'ak-Drap-1-pers.jpg', 'photo_src' => 'ak-Drap-1-pers.jpg')
         ),
@@ -337,7 +328,7 @@ $complements = array(
         'pack' => false,
         'title' => "Drap pour sac de couchage 2P", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT10-Drap-pour-sac-de-couchage.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT10-Drap-pour-sac-de-couchage.pdf", 
         'price' => '49,90',
         'photo' => array( 'photo_href' => 'al-Drap-2-pers.jpg', 'photo_src' => 'al-Drap-2-pers.jpg')
         ),
@@ -347,7 +338,7 @@ $complements = array(
         'pack' => true,
         'title' => "Pack complet protection pluie/soleil", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT12-Protection-pluie-soleil-le-pack-complet", 
+        'pdf_url' => "/configurateur/fiches/FT12-Protection-pluie-soleil-le-pack-complet", 
         'price' => '166,90',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
@@ -355,7 +346,7 @@ $complements = array(
         'pack' => false,
         'title' => "Protection pluie/soleil, le tarp seul", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT11-Toile-de-protection-pluie-soleil-Tarp.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT11-Toile-de-protection-pluie-soleil-Tarp.pdf", 
         'price' => '82,00',
         'photo' => array( 'photo_href' => 'am-Toile-protection-seule.jpg', 'photo_src' => 'am-Toile-protection-seule.jpg')
         ),
@@ -363,7 +354,7 @@ $complements = array(
         'pack' => false,
         'title' => "Auvent indépendant", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT18-Auvent-Independant.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT18-Auvent-Independant.pdf", 
         'price' => '389,00',
         'photo' => array( 'photo_href' => 'an-Auvent-independant.jpg', 'photo_src' => 'an-Auvent-independant.jpg')
         ),
@@ -371,7 +362,7 @@ $complements = array(
         'pack' => false,
         'title' => "Auvent indépendant avec véranda", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT19-Auvent-Independant-avec-veranda.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT19-Auvent-Independant-avec-veranda.pdf", 
         'price' => '429,00',
         'photo' => array( 'photo_href' => 'ao-Auvent-avec-veranda.jpg', 'photo_src' => 'ao-Auvent-avec-veranda.jpg')
         ),
@@ -379,7 +370,7 @@ $complements = array(
         'pack' => false,
         'title' => "Imperméabilisant pour tente", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT19-Auvent-Independant-avec-veranda.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT19-Auvent-Independant-avec-veranda.pdf", 
         'price' => '19,90',
         'photo' => array( 'photo_href' => 'ap-Impermeabilisant.jpg', 'photo_src' => 'ap-Impermeabilisant.jpg')
         ),
@@ -387,7 +378,7 @@ $complements = array(
         'pack' => false,
         'title' => "Douche mobile 12 V", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT20-Douche-mobile-12V.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT20-Douche-mobile-12V.pdf", 
         'price' => '79,00',
         'photo' => array( 'photo_href' => 'aq-Douche-mobile.jpg', 'photo_src' => 'aq-Douche-mobile.jpg')
         ),
@@ -395,7 +386,7 @@ $complements = array(
         'pack' => false,
         'title' => "Cabine de douche “Girafe”", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT21-Cabine-de-douche-Girafe.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT21-Cabine-de-douche-Girafe.pdf", 
         'price' => '90,00',
         'photo' => array( 'photo_href' => 'ar-Cabine-de-douche.jpg', 'photo_src' => 'ar-Cabine-de-douche.jpg')
         ),
@@ -403,7 +394,7 @@ $complements = array(
         'pack' => false,
         'title' => "Malle de rangement souple aux dimensions du Campinambulle", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT13-Malle-de-rangement-souple.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT13-Malle-de-rangement-souple.pdf", 
         'price' => '47,00',
         'photo' => array( 'photo_href' => 'as-Malle-souple.jpg', 'photo_src' => 'as-Malle-souple.jpg')
         ),
@@ -411,7 +402,7 @@ $complements = array(
         'pack' => false,
         'title' => "Chargeur solaire portable", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT14-Chargeur-solaire-portable.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT14-Chargeur-solaire-portable.pdf", 
         'price' => '149,00',
         'photo' => array( 'photo_href' => 'at-Chargeur-solaire.jpg', 'photo_src' => 'at-Chargeur-solaire.jpg')
         ),
@@ -419,7 +410,7 @@ $complements = array(
         'pack' => false,
         'title' => "Pelle américaine pliable", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT15-Pelle-americaine-pliable.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT15-Pelle-americaine-pliable.pdf", 
         'price' => '59,00',
         'photo' => array( 'photo_href' => 'au-Pelle-americaine.jpg', 'photo_src' => 'au-Pelle-americaine.jpg')
         ),
@@ -427,7 +418,7 @@ $complements = array(
         'pack' => false,
         'title' => "WC chimique", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT16-WC-chimiques.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT16-WC-chimiques.pdf", 
         'price' => '79,90',
         'photo' => array( 'photo_href' => 'av-WC-chimique.jpg', 'photo_src' => 'av-WC-chimique.jpg')
         ),
@@ -435,7 +426,7 @@ $complements = array(
         'pack' => false,
         'title' => "Désinfectant pour WC chimique", 
         'description' => "", 
-        'pdf_url' => "/fiches/FT16-WC-chimiques.pdf", 
+        'pdf_url' => "/configurateur/fiches/FT16-WC-chimiques.pdf", 
         'price' => '19,90',
         'photo' => array( 'photo_href' => 'aw-Desinfectant.jpg', 'photo_src' => 'aw-Desinfectant.jpg')
         ),
@@ -446,11 +437,11 @@ $complements = array(
 
       <div class="spaceT40">
         <div class="page-header">
-          <h2>MALLE DE VOYAGE, MODÈLE "CUISINE-CAR<sup>®</sup>"</h2>
+          <h2>MALLE "CUISINE-CAR<sup>®</sup>"</h2>
         </div>
         <?php foreach ($modeles as $model) { ?>
 
-          <div class="row product_row" id="<?php echo slugify($model['title']) ?>">
+          <div class="row product_row product_basic" id="<?php echo slugify($model['title']) ?>">
             <div class="span10 spaceT40">
               <label class="checkbox">
                 <input name="malle" type="checkbox" data-title="<?php echo $model['title'] ?>" data-price="<?php echo stringNumberToFloat($model['price']) ?>" >
@@ -485,7 +476,7 @@ $complements = array(
 
       <div class="spaceT40">
         <div class="page-header">
-          <h2>Options</h2>
+          <h2>OPTIONS</h2>
         </div>
 
 
@@ -500,7 +491,7 @@ $complements = array(
                   <img src="/configurateur/img/thumbs/<?php echo $option['photo']['photo_src'] ?>" />
                 </a>
                 <div class="spaceT10">
-                  <a href="fiches/<?php echo $option['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
+                  <a href="<?php echo $option['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
                 </div>
                 <label class="checkbox">
                   <input name="<?php echo slugify($option['title']) ?>" type="checkbox" data-title="<?php echo $option['title'] ?>" data-price="<?php echo stringNumberToFloat($option['price']) ?>"> 
@@ -536,7 +527,7 @@ $complements = array(
                 </a>
                 <p><?php echo $module['description'] ?></p>
                 <div class="spaceT10">
-                  <a href="fiches/<?php echo $module['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
+                  <a href="<?php echo $module['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
                 </div>
                 <label class="checkbox">
                   <input name="<?php echo slugify($module['title']) ?>" type="checkbox" data-title="<?php echo $module['title'] ?>" data-price="<?php echo stringNumberToFloat($module['price']) ?>">
@@ -561,14 +552,14 @@ $complements = array(
 
       <div class="spaceT40">
         <div class="page-header">
-          <h2>EQUIPEMENTS COMPLÉMENTAIRES</h2>
+          <h2>ÉQUIPEMENTS COMPLÉMENTAIRES</h2>
           <p>Bénéficiez de notre expertise de “campinambullistes”. En collaboration avec nos principaux partenaires, nous avons sélectionné spécialement pour vous différents équipements qui compléteront votre malle de voyage. Nous avons mis l’accent sur la fonctionnalité, la qualité et la durabilité des produits que nous vous proposons. Alors faites nous confiance et laissez vous guider… </p>
         </div>
 
 
         <?php foreach ($complements as $section=>$value) { ?>
           <div class="page-header">
-            <h3><?php echo $section ?></h3>
+            <h3 class="complement_section"><?php echo $section ?></h3>
           </div>
 
           <div class="row spaceT25">
@@ -582,7 +573,7 @@ $complements = array(
                   </a>
                   <p><?php echo $complement['description'] ?></p>
                   <div class="spaceT10">
-                    <a href="fiches/<?php echo $complement['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
+                    <a href="<?php echo $complement['pdf_url'] ?>" target="_blank">Télécharger fiche technique PDF</a>
                   </div>
                   <label class="checkbox">
                     <input name="<?php echo slugify($complement['title']) ?>" type="checkbox"  data-title="<?php echo $complement['title'] ?>" data-price="<?php echo stringNumberToFloat($complement['price']) ?>">
@@ -603,78 +594,70 @@ $complements = array(
 
 
 
-
-      <div class="spaceT40 prix-total right">
-        Prix : <span></span> € TTC
-      </div>
-      
+       <div id="order" class="page-header">
+          <p>Pour terminer ma commande et recevoir mon bon de commande ainsi que le moyen de paye de paiement, je clique sur envoyer le formulaire.  </p>
+        </div> 
 
       <form class="form-horizontal" id="devis" action="contact/devis.php" method="POST">
 
         <div class="row">
           <div class="span1"></div>
           <div class="span11">
-            <div class="spaceT40 control-group">
-              <label class="control-label" for="nom">Nom <span class="required">*</span></label>
+            <div class=" control-group">
+              <label class="control-label" for="nom">Nom / prénom <span class="required">*</span></label>
               <div class="controls">
                 <input type="text" id="nom" name="nom" class="span3" />
               </div>
             </div>
-            <div class="spaceT40 control-group">
-              <label class="control-label" for="prenom">Prénom</label>
-              <div class="controls">
-                <input type="text" id="prenom" name="prenom" class="span3" />
-              </div>
-            </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="adresse">Adresse</label>
               <div class="controls">
                 <input type="text" id="adresse" name="adresse" class="span7">
               </div>
             </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="codepostal">Code Postal</label>
               <div class="controls">
                 <input type="text" id="codepostal" name="codepostal" class="span3">
               </div>
             </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="ville">Ville <span class="required">*</span></label>
               <div class="controls">
                 <input type="text" id="ville" name="ville" class="span3">
               </div>
             </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="courriel">Courriel <span class="required">*</span></label>
               <div class="controls">
                 <input type="text" id="courriel" name="courriel" class="span3" />
               </div>
             </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="telephone">Téléphone</label>
               <div class="controls">
                 <input type="text" id="telephone" name="telephone" class="span3" />
               </div>
             </div>
-            <div class="spaceT40 control-group">
-              <label class="control-label" for="amenagement">Aménagement <span class="required">*</span></label>
+            <div class=" control-group">
+              <label class="control-label" for="amenagement">Mon choix <span class="required">*</span></label>
               <div class="controls">
                 <textarea id="amenagement" name="amenagement" rows="7" class="span7"></textarea>
               </div>
             </div>
-            <div class="spaceT40 control-group">
+            <div class=" control-group">
               <label class="control-label" for="codepromo">Code promotionnel</label>
               <div class="controls">
                 <input type="text" id="codepromo" name="codepromo" class="span3" />
               </div>
             </div>
-            <div class="spaceT40 control-group">
-              <label class="control-label" for="commentaires">Commentaires</label>
+            <div class=" control-group">
+              <label class="control-label" for="commentaires">Ma demande</label>
               <div class="controls">
                 <textarea id="commentaires" name="commentaires" rows="7" class="span7"></textarea>
               </div>
             </div>
-            <div class="spaceT25 control-group">
+            <div class=" control-group">
               <label class="control-label"></label>
               <div class="controls">
                 <span class="required">* Informations indispensables</span>
@@ -694,6 +677,15 @@ $complements = array(
       </div>
     </div>
 
+      <div id="footer-total" class="spaceT40">
+        <div class="container">
+          <div class="row">
+            <div class="prix-total span8 column"> Prix total : <span></span> € TTC</div>
+            <a href="#order" class="btn push-right btn-success">Terminer ma commande</a>
+          </div>
+        </div>
+      </div>
+      
     <script>
       var Campinambulle = Campinambulle || {};
     </script>

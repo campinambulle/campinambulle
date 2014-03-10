@@ -6,7 +6,7 @@
       </div>
       
       <ul class="spaceT40 span8" id="menu">
-        <li><a href="/#slider">Diaporama</a></li>
+        <li><a href="/#">Accueil</a></li>
         <li><a href="/#videos">Vidéos</a></li>
         <li><a href="/#nos-atouts">Nos atouts</a></li>
         <li><a href="/#vehicules-compatibles">Véhicules compatibles</a></li>

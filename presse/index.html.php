@@ -83,16 +83,16 @@
         <a target="_blank" href="articles/E-mag-ReferenceCamping.com-article-avril-2013.pdf">Campinambulle Article E-MAG ReferenceCamping.com - Lire la suite ></a>
       </div>
 
-      <div id="NarbonneAccessoires" class="spaceT40">
-        <div class="row page-header">
-          <h2 class="span8">Narbonne accessoires</h2>
-          <div class="span4 right" ><img src="../img/presse/narbonne-accessoires.png" /></div>
-        </div>
-        <p class="spaceB15">Pour compléter votre Campinambulle, ces produits peuvent vous intéresser : Convertisseur électrique allume-cigare, batterie auxiliaire, douche solaire, glacière à compression, stores de protection, fauteuils et pliants, auvent indépendant, tente de toit, etc...</p>
-        <p class="spaceB15">Bénéficiez de 10 % de remise sur tous les produits * de Narbonne-accessoires Clermont-Ferrand, sur présentation d'une facture acquittée de Campinambulle. * Hors promotions en cours, carte de fidélité offerte, voir conditions en magasin.</p>
-        <p class="spaceB15">NARBONNE ACCESSOIRES RN 9 Route d’Issoire 63670 LA ROCHE BLANCHE</p>
-        <a target="_blank" href="http://www.narbonneaccessoires.fr/">Voir le catalogue de notre partenaire ></a>
-      </div>
+      <!--<div id="NarbonneAccessoires" class="spaceT40">-->
+        <!--<div class="row page-header">-->
+          <!--<h2 class="span8">Narbonne accessoires</h2>-->
+          <!--<div class="span4 right" ><img src="../img/presse/narbonne-accessoires.png" /></div>-->
+        <!--</div>-->
+        <!--<p class="spaceB15">Pour compléter votre Campinambulle, ces produits peuvent vous intéresser : Convertisseur électrique allume-cigare, batterie auxiliaire, douche solaire, glacière à compression, stores de protection, fauteuils et pliants, auvent indépendant, tente de toit, etc...</p>-->
+        <!--<p class="spaceB15">Bénéficiez de 10 % de remise sur tous les produits * de Narbonne-accessoires Clermont-Ferrand, sur présentation d'une facture acquittée de Campinambulle. * Hors promotions en cours, carte de fidélité offerte, voir conditions en magasin.</p>-->
+        <!--<p class="spaceB15">NARBONNE ACCESSOIRES RN 9 Route d’Issoire 63670 LA ROCHE BLANCHE</p>-->
+        <!--<a target="_blank" href="http://www.narbonneaccessoires.fr/">Voir le catalogue de notre partenaire ></a>-->
+      <!--</div>-->
 
 
       <div id="footer" class="spaceT40 spaceB25">
