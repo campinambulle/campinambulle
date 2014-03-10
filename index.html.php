@@ -925,7 +925,7 @@ Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts
             </address>
           </div>
           <div class="span5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6002107.438346318!2d0.8699735449734559!3d42.7308903946229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f136c3ae9e6f51%3A0x1b5e90dba96ca956!2sSaint-G%C3%A9rand-le-Puy!5e0!3m2!1sfr!2sfr!4v1393873317034" width="400" height="300" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5647689.245665954!2d3.550814!3d46.27684559999883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDE2JzM2LjYiTiAzwrAzMycwMi45IkU!5e0!3m2!1sfr!2sfr!4v1394465232900" width="380" height="380" frameborder="0" style="border:0"></iframe>
           </div>
           <div class="span3">
             <a href="http://www.auvergne-nouveau-monde.fr" target="_blank"> <img src="/img/logo-auvergne-nouveau-monde.jpg" alt="Auvergne Nouveau Monde"></a>
@@ -964,17 +964,8 @@ Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts
     <script type='text/javascript'>
       $(function(){
         $("#posts").html('');
-        var 
-          posts_count = parseInt(tumblr_api_read["posts-total"]),
-          loop = 3;
-
-          if( posts_count < 3 )
-            loop = posts_count;
-        
-
-        for (var i=0;i<loop;i++){
-
-        var wrapper = $("<div class='wrapper'></div>");
+          var i = 0;
+          var wrapper = $("<div class='wrapper'></div>");
           // title
           wrapper.append( "<h4 class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"' target='_blank'>"+tumblr_api_read["posts"][i]["regular-title"]+"</a></h4>" )
           // text
@@ -983,7 +974,6 @@ Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts
           wrapper.append( "<p class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"'>Lire la suite...</a></p>" )
 
           $("#posts").append( wrapper );
-        }
       });
     </script>
 
