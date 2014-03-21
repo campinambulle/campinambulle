@@ -83,6 +83,20 @@
         <a target="_blank" href="articles/E-mag-ReferenceCamping.com-article-avril-2013.pdf">Campinambulle Article E-MAG ReferenceCamping.com - Lire la suite ></a>
       </div>
 
+
+
+      <div id="ReferenceCamping" class="spaceT40">
+        <div class="row page-header">
+          <h2 class="span8">Magasine Le Monde du Camping-Car - Hors série n°13 H - Tous les fourgons aménagés de février 2014</h2>
+          <div class="span4 right" ><img src="/img/presse/logo_lmcc_header.png" /></div>
+        </div>
+        <h3>"CAMPINAMBULLE - Talents associés</h3>
+        <p class="spaceB15">Prenez un maître ébéniste riche d’une longue expérience, associez-lui une gestionnaire tout aussi expérimentée. Faites rejoindre ce couple passionné de voyages et de...</p>
+        <a target="_blank" href="articles/2014-02-Le-Monde-du-Camping-Car.pdf">Campinambulle Article Le Monde du Camping-Car - Lire la suite ></a>
+      </div>
+
+
+
       <!--<div id="NarbonneAccessoires" class="spaceT40">-->
         <!--<div class="row page-header">-->
           <!--<h2 class="span8">Narbonne accessoires</h2>-->

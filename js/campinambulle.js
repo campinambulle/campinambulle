@@ -10,6 +10,14 @@ function FloatToEuroMoney( number ) {
     return euros + ',' + cents.slice(0, 2);
 }
 
+Campinambulle.diplayTotalBottomBar = function() {
+  if( $('.checked').length ){
+    $('#footer-total').show();
+  } else {
+    $('#footer-total').hide();
+  }
+}
+
 
 Campinambulle.carousel = function() {
   $('.carousel').carousel();
@@ -57,6 +65,8 @@ Campinambulle.computePrice = function() {
 };
 
 Campinambulle.manageCheckboxStatus = function(self) {
+  console.log('manageCheckboxStatus');
+
   var checkboxClicked = $(self);
   var checkboxClickedStatus = $(self).attr('checked');
   $("input[name='"+checkboxClicked.attr('name')+"']").attr('checked', false);
@@ -64,8 +74,11 @@ Campinambulle.manageCheckboxStatus = function(self) {
 };
 
 Campinambulle.manageInputQuanty = function(self) {
-  var inputQuantity = $(self);
-  $(inputQuantity).prev().attr('checked', true);
+  var $inputQuantity = $(self),
+      $checkboxClicked = $inputQuantity.prev();
+
+  $checkboxClicked.attr('checked', 'checked');
+  Campinambulle.highlightRowChecked( $checkboxClicked );
 };
 
 Campinambulle.checkRequiredField = function(fieldId) {
@@ -96,8 +109,11 @@ Campinambulle.submitContactForm = function() {
 };
 
 Campinambulle.highlightRowChecked = function(self) {
+  console.log('highlightRowChecked');
+
   var checkboxClicked = $(self);
-  $("input[name='"+checkboxClicked.attr('name')+"']").parents(".row").removeClass("checked");
+  $("input[name='"+checkboxClicked.attr('name')+"']").parents(".product_row").removeClass("checked");
+
   if(checkboxClicked.attr('checked') == "checked") {
     checkboxClicked.parents(".product_row").addClass("checked");
   } else {
@@ -123,14 +139,19 @@ Campinambulle.init = function() {
   if($("#configurateur").length) {
     Campinambulle.focusImage();
     Campinambulle.computePrice();
-    $("input").click(function(e) {
+
+    $("input[type=checkbox]").click(function(e) {
       Campinambulle.manageCheckboxStatus(this);
       Campinambulle.highlightRowChecked(this);
       Campinambulle.computePrice();
+      Campinambulle.diplayTotalBottomBar();
     });
     $("input[type=number]").change(function(e) {
       Campinambulle.manageInputQuanty(this);
+      Campinambulle.computePrice();
+      Campinambulle.diplayTotalBottomBar();
     });
+
     Campinambulle.submitContactForm();
   }
 };
@@ -140,4 +161,19 @@ $("[data-campi-id]").on("click", function(e){
   var hash = $(e.currentTarget).data('campi-id');
   console.log(hash);
   window.location.href = '/configurateur' + hash;
+})
+
+function footerScrollSize() {
+  var result = $('#configurateur').outerHeight() - $('#configurateur').scrollTop();
+
+  console.log( result );
+  return result;
+}
+
+$(window).scroll(function(){
+   if( footerScrollSize() < 1150 ) {
+     $('#footer-total').hide(); 
+   } else {
+     Campinambulle.diplayTotalBottomBar();
+   }
 })

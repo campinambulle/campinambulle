@@ -126,6 +126,12 @@ h3 {
   margin-left: 20px;
 }
 
+
+
+.btn.btn-large.btn-success {
+  font-weight: bold;
+}
+
 #header {
   height: 90px;
   padding: 10px 0;
@@ -138,19 +144,23 @@ h3 {
   border-bottom: 1px solid #eee;
 }
 
+.menu {
+  text-align: right;
+  width: 100%;
+}
 
-#menu a {
-  font-size: 17.5px;
-  color: #f9a65d;
+.menu a {
   display: inline-block;
+  margin: 0 0.4em;
+  font-size: 1em;
+  color: #ea5330;
 }
 
-#menu li {
-  display: inline;
-  float: left;
-  list-style: none;
-  padding: 0 7px;
-}
+#menu  { font-size: 19px; margin-top: 27px; }
+#menu2 { font-size: 12px;  }
+
+#menu2 a  { color: #333; }
+
 
 #preorder {
   text-align: center;
@@ -318,6 +328,23 @@ h3 {
 
 /************************/
 
+body#configurateur .page-header {
+  padding-top: 145px;
+}
+
+#subMenu {
+  position: fixed;
+  top: 111px;
+  background-color: #333;
+  width: 100%;
+  font-size: 18px;
+  line-height: 2em;
+}
+#subMenu .menu {
+  text-align: center !important;
+}
+
+#subMenu a { color: #ea5330 !important; }
 #configurateur #rules,
 #configurateur label,
 #configurateur .prix {
@@ -336,17 +363,18 @@ h3 {
 
 
 #footer-total {
+  display: none;
   position: fixed;
   bottom: 0;
-  background-color: #fafafa;
+  background-color: #ea5330;
   width: 100%;
-  padding: 0.5em 0;
-  border-top: 1px solid #dddddd;
+  padding: 0.8em 0;
 }
 
 .prix-total {
   font-size: 26px;
-  color: #f04e23;
+  color: white;
+  text-align: center;
   font-weight: bold;
 }
 
@@ -369,9 +397,6 @@ h3 {
   font-weight: bold;
 }
 
-#configurateur a {
-  color: #F9A65C;
-}
 
 #configurateur .submit span {
   font-size: 17.5px;
@@ -410,7 +435,8 @@ h3 {
 #configurateur .configs .plus {
   display: inline;
   display: inline-block;
-  font-size: 16px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #configurateur .quantity {
@@ -424,6 +450,10 @@ h3 {
 
 .page-header {
   padding-top: 115px;
+}
+
+.page-header.without-space-before {
+  padding-top: 20px !important;
 }
 
 #pressePage .page-header img {

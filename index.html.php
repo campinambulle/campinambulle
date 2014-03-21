@@ -77,58 +77,109 @@
       </div>
 
 
-      <div id="videos" class="spaceT40">
-        <h2 class="page-header">Vidéos : "Et si on se faisait la malle !"</h2>
-        <div class="row center">
-          <div class="span4">
-            <h3>Manger dans sa voiture</h3>
-            <iframe width="100%" height="203" src="http://www.youtube.com/embed/OmJ88K778TQ?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="span4">
-            <h3>Dormir dans sa voiture</h3>
-            <iframe width="100%" height="203" src="http://www.youtube.com/embed/V3YaVzT-g1o?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <div class="span4">
-            <h3>Mode d’emploi</h3>
-            <iframe width="100%" height="203" src="http://www.youtube.com/embed/VaCP1b9VPKU?rel=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="center spaceT25 slogan">
-          <strong>Une malle de voyage tellement pratique !</strong><br /> 
-          En solo ou en famille,<br /> 
-          Campinambulle vous accompagne<br /> 
-          en toute occasion.<br /> 
-        </div>
-        <div class="row center spaceT25">
-          <div class="span3">
-            <h3><strong>Sportifs de pleine nature</strong></h3>
-            Randonnée, vélo,<br /> 
-            escalade, canoë,<br /> 
-            surf, parapente...
-          </div>
-          <div class="span3">
-            <h3><strong>En vacances</strong></h3>
-            Campeurs, pêcheurs,<br /> 
-            touristes, escapades&nbsp;nature<br /> 
-            week-ends&nbsp;plaisirs...<br /> 
-          </div>
-          <div class="span3">
-            <h3><strong>En déplacement</strong></h3>
-            Photographes,<br />
-            Intermittents du spectacle,<br />
-            professionnels du bâtiment,<br />
-            forestiers, saisonniers...
-          </div>
-          <div class="span3">
-            <h3><strong>Invités à une fête</strong></h3>
-            Festivals, concours,<br /> 
-            manifestations culturelles,<br /> 
-            mariages, anniversaires...<br /> 
 
+
+
+
+
+
+
+
+      <div id="nos-produits" class="spaceT40">
+        <h2 class="page-header">Nos produits</h2>
+        <div class="center">
+          <div class="row spaceB25">
+            <div class="span10">
+              <h3>La qualité d’un savoir-faire traditionnel : <br />
+                un produit haut de gamme, tout en bois, écologique, robuste et conçu pour durer.</h3>
+            </div>
+            <div class="span2">
+              <img src="img/produit/fabrique-en-france.png" />
+              <h4>Par le Maître Ebéniste</h4>
+            </div>
           </div>
-        </div>
-        <div class="center spaceT25">
-          <a class="btn btn-large btn-success" href="configurateur">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
+          <div class="row">
+            <div class="span4">
+              <table class="table" data-campi-id="#campi-sancy">
+                <thead>
+                  <tr> <td><img src="/img/produit/croquis-campi-forez.png"></td> </tr>
+                  <tr>
+                    <th>Campi-Forez</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Malle avec table à rallonge</td>
+                  </tr>
+                  <tr>
+                    <td>Module couchette</td>
+                  </tr>
+                  <tr>
+                    <td><strong>1 777 €</strong> <small>TTC</small></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="span4">
+              <table class="table popular" data-campi-id="#campi-lioran">
+                <thead>
+                  <tr> <td><img src="/img/produit/croquis-campi-lioran.png"></td> </tr>
+                  <tr>
+                    <th>Campi-Lioran</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Malle avec table à rallonge</td>
+                  </tr>
+                  <tr>
+                    <td>Module cuisine avec tablette d’appoint</td>
+                  </tr>
+                  <tr>
+                    <td>Module 3 tiroirs</td>
+                  </tr>
+                  <tr>
+                    <td>Module rangement</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2 096 €</strong> <small>TTC</small> <br /></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 class="popular">Le plus populaire <i class="icon-heart"></i></h3>
+            </div>
+            <div class="span4">
+              <table class="table" data-campi-id="#campi-val-d-allier">
+                <thead>
+                  <tr> <td><img src="/img/produit/croquis-campi-sancy.png"></td> </tr>
+                  <tr>
+                    <th>Campi-Sancy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Malle avec table à rallonge</td>
+                  </tr>
+                  <tr>
+                    <td>Module cuisine avec tablette d’appoint</td>
+                  </tr>
+                  <tr>
+                    <td>Module 3 tiroirs</td>
+                  </tr>
+                  <tr>
+                    <td>Module rangement</td>
+                  </tr>
+                  <tr>
+                    <td>Module couchette</td>
+                  </tr>
+                  <tr>
+                    <td><strong>2 791 €</strong> <small>TTC</small></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <h3><a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle<i class="icon-caret-right spaceL10"></i></a></h3>
         </div>
       </div>
 
@@ -139,8 +190,94 @@
 
 
 
+
+
+      <div id="vehicules-compatibles">
+        <h2 class="page-header">Véhicules compatibles</h2>
+        <h3>Dimensions</h3>
+        <img src="/img/croquis-config-dim.jpg" alt="Croquis config + dim" class="pull-right">
+        <p>La malle de voyage “Cuisine-Car” a été conçue, tout spécialement, pour s'adapter à l'immense majorité des véhicules de type Ludospaces, Monospaces, Combis et Fourgons, et certains 4X4. <br>
+        Néanmoins, avant de passer commande, et pour vous assurer qu'elle rentre parfaitement dans le coffre de votre véhicule, nous vous conseillons de le vérifier en prenant les mesures, grâce aux dimensions suivantes :</p>
+
+        <h5>1. La malle </h5>
+        <ul>
+          <li>largeur : 1,12 m (au sol)</li>
+          <li>profondeur : 0,61 m (entre le coffre fermé et les sièges arrières)</li>
+          <li>hauteur : 0,55 m – et avec la couchette : 0,60 m</li>
+        </ul>
+
+        <h5>2. La couchette</h5>
+        <ul>
+          <li>largeur : 1,12 m</li>
+          <li>longueur : 1,88 m</li>
+          <li>hauteur : 0,55 m au-dessus du plancher (même hauteur que la malle).</li>
+        </ul>
+
+        <h3 class="spaceT40">Types de véhicules</h3>
+        <p>Ces quelques exemples sont donnés à titre indicatif. Pour éviter tout risque d’erreur, le plus sûr est de mesurer le coffre du véhicule à équiper.</p>
+        
+        <div class="row">
+          <div class="span3">
+            <h4 class="center"><strong>Ludospaces</strong></h4>
+            <p class="center">Kangoo, Partner, Berlingo, Doblo, Tournéo, Caddy, Dokker, Combo, Connect, etc</p>
+          </div>
+
+          <div class="span3">
+            <h4 class="center"><strong>Monospaces</strong></h4>
+            <p class="center">Jumpy, Scudo, Espace, 807, Phédra, C8, Grand voyager, etc.</p>
+          </div>
+
+          <div class="span3">
+            <h4 class="center"><strong>Combis et Fourgons</strong></h4>
+            <p class="center">Expert, Trafic, Transporter, Vito, Combi, Ford Transit, NV200, etc.</p>
+          </div>
+
+          <div class="span3">
+            <h4 class="center"><strong>4X4</strong></h4>
+            <p class="center">Type Nissan, etc.</p>
+          </div>
+        </div>
+
+        <div class="clear"></div>
+      </div>
+
+
+
+
+
+
+
+      <!--<div id="videos" class="spaceT40">-->
+        <!--<h2 class="page-header">Vidéos : "Et si on se faisait la malle !"</h2>-->
+        <!--<div class="row center">-->
+          <!--<div class="span4">-->
+            <!--<h3>Manger dans sa voiture</h3>-->
+            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/OmJ88K778TQ?rel=0" frameborder="0" allowfullscreen></iframe>-->
+          <!--</div>-->
+          <!--<div class="span4">-->
+            <!--<h3>Dormir dans sa voiture</h3>-->
+            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/V3YaVzT-g1o?rel=0" frameborder="0" allowfullscreen></iframe>-->
+          <!--</div>-->
+          <!--<div class="span4">-->
+            <!--<h3>Mode d’emploi</h3>-->
+            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/VaCP1b9VPKU?rel=0" frameborder="0" allowfullscreen></iframe>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="center spaceT25">-->
+          <!--<a class="btn btn-large btn-success" href="configurateur">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>-->
+        <!--</div>-->
+      <!--</div>-->
+
+
+
+
+
+
+
+
       <div id="nos-atouts" class="spaceT40">
-        <h2 class="page-header">Nos atouts</h2>
+        <h2 class="page-header">Les atouts</h2>
         <div class="row">
           <div class="span3">
             <div class="center">
@@ -195,23 +332,36 @@
             </p>
           </div>
         </div>
-        <div class="row spaceT25">
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/croquis/a1.jpg" />
-            </div>
+        <div class="row center spaceT25">
+          <div class="span4">
+            <h3>Manger dans sa voiture</h3>
+            <iframe width="100%" height="203" src="http://www.youtube.com/embed/OmJ88K778TQ?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/croquis/a2.jpg" />
-            </div>
+          <div class="span4">
+            <h3>Dormir dans sa voiture</h3>
+            <iframe width="100%" height="203" src="http://www.youtube.com/embed/V3YaVzT-g1o?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/croquis/a3.jpg" />
-            </div>
+          <div class="span4">
+            <h3>Mode d’emploi</h3>
+            <iframe width="100%" height="203" src="http://www.youtube.com/embed/VaCP1b9VPKU?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-        </div>
+        <!--<div class="row spaceT25">-->
+          <!--<div class="span4 center">-->
+            <!--<div class="thumbnail">-->
+              <!--<img src="img/croquis/a1.jpg" />-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="span4 center">-->
+            <!--<div class="thumbnail">-->
+              <!--<img src="img/croquis/a2.jpg" />-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="span4 center">-->
+            <!--<div class="thumbnail">-->
+              <!--<img src="img/croquis/a3.jpg" />-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
         <div class="spaceT25 center slogan">
           Une simple malle embarquée se transforme en "Cuisine-car" ®* <br />
           avec couchette, pour le confort de vos voyages.<br />
@@ -229,353 +379,49 @@
             </ul>
           </div>
           <div class="span5 center">
-            <a class="btn btn-large btn-success" href="configurateur" target="_blank">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
+            <div class="thumbnail">
+              <img src="img/croquis/a1.jpg" />
+            </div>
           </div>
         </div>
-      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-      <div id="vehicules-compatibles">
-        <h2 class="page-header">Véhicules compatibles</h2>
-        <h3>Dimensions</h3>
-        <img src="/img/croquis-config-dim.jpg" alt="Croquis config + dim" class="pull-right">
-        <p>La malle de voyage “Cuisine-Car” a été conçue, tout spécialement, pour s'adapter à l'immense majorité des véhicules de type Ludospaces, Monospaces, Combis et Fourgons, et certains 4X4. <br>
-        Néanmoins, avant de passer commande, et pour vous assurer qu'elle rentre parfaitement dans le coffre de votre véhicule, nous vous conseillons de le vérifier en prenant les mesures, grâce aux dimensions suivantes :</p>
-
-        <h5>1. La malle </h5>
-        <ul>
-          <li>largeur : 1,12 m (au sol)</li>
-          <li>profondeur : 0,61 m (entre le coffre fermé et les sièges arrières)</li>
-          <li>hauteur : 0,55 m – et avec la couchette : 0,60 m</li>
-        </ul>
-
-        <h5>2. La couchette</h5>
-        <ul>
-          <li>largeur : 1,12 m</li>
-          <li>longueur : 1,88 m</li>
-          <li>hauteur : 0,55 m au-dessus du plancher (même hauteur que la malle).</li>
-        </ul>
-
-        <h3 class="spaceT40">Types de véhicules</h3>
-        <p>Ces quelques exemples sont donnés à titre indicatif. Pour éviter tout risque d’erreur, le plus sûr est de mesurer le coffre du véhicule à équiper.</p>
-        
-        <div class="row">
-          <div class="span3">
-            <h4 class="center"><strong>Ludospaces</strong></h4>
-            <p>Kangoo, Partner, Berlingo, Doblo, Tournéo, Caddy, Dokker, Combo, Connect, etc</p>
-          </div>
-
-          <div class="span3">
-            <h4 class="center"><strong>Monospaces</strong></h4>
-            <p>Jumpy, Scudo, Espace, 807, Phédra, C8, Grand voyager, etc.</p>
-          </div>
-
-          <div class="span3">
-            <h4 class="center"><strong>Combis et Fourgons</strong></h4>
-            <p>Expert, Trafic, Transporter, Vito, Combi, Ford Transit, NV200, etc.</p>
-          </div>
-
-          <div class="span3">
-            <h4 class="center"><strong>4X4</strong></h4>
-            <p>Type Nissan, etc.</p>
-          </div>
+        <div class="span5 center">
+          <a class="btn btn-large btn-success" href="configurateur" target="_blank">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
         </div>
-
         <div class="clear"></div>
-      </div>
-
-
-
-      <div id="nos-produits" class="spaceT40">
-        <h2 class="page-header">Nos produits</h2>
-        <div class="center">
-          <div class="row spaceB25">
-            <div class="span10">
-              <h3>La qualité d’un savoir-faire traditionnel : <br />
-                un produit haut de gamme, tout en bois, écologique, robuste et conçu pour durer.</h3>
-            </div>
-            <div class="span2">
-              <img src="img/produit/fabrique-en-france.png" />
-              <h4>Par le Maître Ebéniste</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="span3">
-              <table class="table" data-campi-id="#campi-forez">
-                <thead>
-                  <tr>
-                    <th>Campi-Forez</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Malle avec table à rallonge</td>
-                  </tr>
-                  <tr>
-                    <td><strong>1 082 €</strong> <small>TTC</small></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="span3">
-              <table class="table" data-campi-id="#campi-sancy">
-                <thead>
-                  <tr>
-                    <th>Campi-Sancy</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Malle avec table à rallonge</td>
-                  </tr>
-                  <tr>
-                    <td>Module couchette</td>
-                  </tr>
-                  <tr>
-                    <td><strong>1 777 €</strong> <small>TTC</small></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="span3">
-              <table class="table popular" data-campi-id="#campi-lioran">
-                <thead>
-                  <tr>
-                    <th>Campi-Lioran</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Malle avec table à rallonge</td>
-                  </tr>
-                  <tr>
-                    <td>Module cuisine avec tablette d’appoint</td>
-                  </tr>
-                  <tr>
-                    <td>Module 3 tiroirs</td>
-                  </tr>
-                  <tr>
-                    <td>Module rangement</td>
-                  </tr>
-                  <tr>
-                    <td><strong>2 096 €</strong> <small>TTC</small> <br /></td>
-                  </tr>
-                </tbody>
-              </table>
-              <h3 class="popular">Le plus populaire <i class="icon-heart"></i></h3>
-            </div>
-            <div class="span3">
-              <table class="table" data-campi-id="#campi-val-d-allier">
-                <thead>
-                  <tr>
-                    <th>Campi-Val d’Allier </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Malle avec table à rallonge</td>
-                  </tr>
-                  <tr>
-                    <td>Module cuisine avec tablette d’appoint</td>
-                  </tr>
-                  <tr>
-                    <td>Module 3 tiroirs</td>
-                  </tr>
-                  <tr>
-                    <td>Module rangement</td>
-                  </tr>
-                  <tr>
-                    <td>Module couchette</td>
-                  </tr>
-                  <tr>
-                    <td><strong>2 791 €</strong> <small>TTC</small></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <h3><a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle<i class="icon-caret-right spaceL10"></i></a></h3>
+        <div class="row center spaceT25 slogan">
+          <strong>Une malle de voyage tellement pratique !</strong><br />
+          En solo ou en famille,<br />
+          Campinambulle vous accompagne<br />
+          en toute occasion.<br />
         </div>
-      </div>
-
-
-
-
-
-
-
-      <div id="qui-sommes-nous" class="spaceT40">
-        <h2 class="page-header">Qui sommes-nous ?</h2>
-        <h3 class="center spaceB25">Les fondateurs : la qualité d’un savoir faire traditionnel</h3>
-        <div class="row">
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/monique-guillon.jpg" />
-            </div>
-            <div>
-              <h3>Monique Guillon</h3>
-              <h4>Le dynamisme à votre écoute</h4>
-              <p> Co-fondatrice de l'entreprise Campinambulle qu'elle manage sur le plan de la gestion financière, administrative et commerciale. <br />  Gérante pendant 12 ans de la Sté Alphée Rêves (agencement intérieur pour collectivités enfants).  Chargée de la communication, conjointement avec Patrick Matéos.  </p>
-            </div>
+        <div class="row center spaceT25">
+          <div class="span3">
+            <h3><strong>Sportifs de pleine nature</strong></h3>
+            Randonnée, vélo,<br />
+            escalade, canoë,<br />
+            surf, parapente...
           </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/patrick-mateos-01.jpg" />
-            </div>
-            <div>
-              <h3>Patrick Matéos</h3>
-              <h4>40 ans d'expérience professionnelle</h4>
-              <p> Maître ébéniste. Architecte d'intérieur. <br /> Créateur de mobilier. <br />  Formateur en ébénisterie/marqueterie. Grand&nbsp;Cuisinier.  <br /> Co-fondateur de l'entreprise Campinambulle dans laquelle il exerce son talent de concepteur et gère toute la partie technique jusqu'à la sortie d'atelier.  </p>
-            </div>
+          <div class="span3">
+            <h3><strong>En vacances</strong></h3>
+            Campeurs, pêcheurs,<br />
+            touristes, escapades&nbsp;nature<br />
+            week-ends&nbsp;plaisirs...<br />
           </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/sylvere-mateos-01.jpg" />
-            </div>
-            <div>
-              <h3>Sylvère Matéos</h3>
-              <h4>L’esprit vif pour vous servir</h4>
-              <p> Doctorant en Économie. <br /> Chevalier, cascadeur équestre. <br /> Fin cuisinier (de père en fils).  <br /> Business-développeur, il a un œil sur tout&nbsp;: <br /> du compte d’exploitation à la qualité de la finition.  </p>
-            </div>
+          <div class="span3">
+            <h3><strong>En déplacement</strong></h3>
+            Photographes,<br />
+            Intermittents du spectacle,<br />
+            professionnels du bâtiment,<br />
+            forestiers, saisonniers...
           </div>
-        </div>
-        <h3 class="center spaceB25">L’équipe : le web au service de l’artisanat Français</h3>
-        <div class="row">
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/willy-braun.jpg" />
-            </div>
-            <div>
-              <h3>Willy Braun</h3>
-              <h4>Marketeur cablé startup</h4>
-              <p> Délégué Général de France Digitale, association d'investisseurs et de startups du numérique. <br />  Co-éditeur de Brocooli, magazine online sur le branding et le marketing digitale ( www.brocooli.com ).<br />   Auteur de “Internet Marketing 2013”. <br />  Accessoirement l’homme le plus réactif du monde. <br />  C’est la pierre angulaire de Campinambulle.  </p>
-            </div>
-          </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/mathieu-daix-02.jpg" />
-            </div>
-            <div>
-              <h3>Mathieu Daix</h3>
-              <h4>La marque, l’histoire, l’histoire de la marque !</h4>
-              <p> Ne vous y trompez pas, il défend le vrai marketing, le beau marketing, celui qui a du sens et des valeurs ! <br /> Ce fils du Cantal est tombé amoureux du “made in Auvergne”, représenté par Campinambulle. <br /> C’est un touche-à-tout, aux détails, à l'image et aux valeurs véhiculées (pratique pour une entreprise d’aménagement de voitures). <br /> Oui, il croit avoir de l'humour.  </p>
-            </div>
-          </div>
-          <div class="span4 center">
-            <div class="thumbnail">
-              <img src="img/equipe/jonathan-bonzy.jpg" />
-            </div>
-            <div>
-              <h3>Jonathan Bonzy</h3>
-              <h4>Développeur en chef</h4>
-              <p> Il n’est pas auvergnat. C’est vrai... <br /> 
-                Mais il est tellement bon qu’on finit par oublier ce détail central. 
-                Son univers&nbsp;: des séries de chiffres et des symboles bizarres. <br /> 
-                Il appelle ça du code. Nous on le croit. <br /> 
-                Sa particularité&nbsp;: il aime coder en montagne.<br /> 
-                Il a eu un coup de coeur pour notre aventure 
-                et est devenu une pièce maîtresse de l’équipe.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="center spaceT25 asset">
-          <h3>Ce qui nous guide, au-delà d'une entreprise : des valeurs.</h3>
-          <div class="row spaceT25">
-            <div class="span6 center">
-              <p>
-                Une certaine idée des rapports humains<br /> 
-                dans le respect de leurs besoins<br /> 
-                et à travers l’espace concret de leur vie quotidienne<br /> 
-                dont la voiture en est l’extension.
-              </p>
-              <h4><strong>Le plaisir de vivre dans un espace bien pensé, fonctionnel et confortable.</strong></h4>
-            </div>
-            <div class="span6 center">
-              <p>
-                Tout un concept visant l'autonomie, l'indépendance,<br /> 
-                le confort, la convivialité et le partage,<br /> 
-                le respect d'autrui et, le plus possible,<br /> 
-                celui de l'environnement.
-              </p>
-              <h4><strong>“Ce qui ne pousse pas dans la nature, ne se jette pas dans la nature”.</strong></h4>
-            </div>
-          </div>
-          <div class="center spaceT25">
+          <div class="span3">
+            <h3><strong>Invités à une fête</strong></h3>
+            Festivals, concours,<br />
+            manifestations culturelles,<br />
+            mariages, anniversaires...<br />
           </div>
         </div>
       </div>
-
-
-
-
-
-
-      <div id="presse" class="spaceT40">
-        <h2 class="page-header">Presse</h2>
-        <div class="row">
-          <div class="span4">
-            <h3>Nos partenaires</h3>
-            <p class="spaceT25">
-              <a href="http://www.auvieuxcampeur.fr/" target="_blank"><img src="/img/presse/Logo-Vieux-Campeur.png" alt="Vieux Campeur"></a>
-            </p>
-            <p class="">
-              <a href="http://www.narbonneaccessoires.fr/" target="_blank"><img src="/img/presse/narbonne-accessoires.png"></a>
-            </p>
-          </div>
-
-          <div class="span4">
-            <h3>On parle de nous</h3>
-
-
-            <p class="spaceT25">
-              <a href="presse">
-                <img src="img/presse/france3-auvergne.png" />
-              </a>
-            </p>
-            <p class="spaceT5">
-              <a href="presse">
-                <img src="img/presse/camping-car-magazine.gif" />
-              </a>
-            </p>
-            <p class="spaceT5">
-              <a href="presse">
-                <img src="img/presse/la-montagne.gif" />
-              </a>
-            </p>
-            <p class="spaceT5">
-              <a href="presse">
-                <img src="img/presse/reference-camping.jpg" />
-              </a>
-            </p>
-            <p class="spaceT5">
-              <a href="presse">
-                <img src="img/presse/logo_lmcc_header.png" />
-              </a>
-            </p>
-
-          </div>
-
-          <div class="span4">
-            <h3>Blog</h3>
-            <div id="posts"> </div>
-
-          </div>
-        </div>
-        
-        <div class="clear"></div>
-      </div>
-      
 
 
 
@@ -590,7 +436,7 @@
       </div>
 
       <div id="faq" class="spaceT40">
-        <h2 class="page-header">FAQ : Réponses aux questions les plus courantes sur le Campinambulle</h2>
+        <h2 class="page-header">Réponses aux questions les plus courantes sur le Campinambulle</h2>
 
         <div class="row">
 
@@ -872,8 +718,7 @@ Nous avons testé le système “évier-robinet”, pour faire "comme à la mais
                 <div class="accordion-body in collapse" id="collapse23" style="height: auto;">
                   <div class="accordion-inner">
                     <p>
-Nos malles de voyage bénéficient des dispositions de la garantie légale des vices cachés (Voir le paragraphe correspondant de nos "Conditions Générales de vente" dans la rubrique "Mentions légales".  Si toutefois un problème se présentait, envoyez-nous la photo de…. etc.” <br />
-Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts, nous réparerons ou nous procéderons au remplacement de l'élément concerné. Au préalable, nous vous ferons parvenir un devis détaillé du montant des travaux. Nous interviendrons après confirmation écrite de votre accord et encaissement de votre chèque. Les frais de port seront à votre charge et figureront sur le devis, à moins que vous ne souhaitiez venir sur notre site de fabrication, à St Gérand-le-Puy. Nous vous recevrons avec plaisir.</p>
+Nos malles de voyage bénéficient des dispositions de la garantie légale des vices cachés (Voir le paragraphe correspondant de nos "Conditions Générales de vente" dans la rubrique "Mentions légales"). Si toutefois un problème se présentait, envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts, nous réparerons ou nous procéderons au remplacement de l'élément concerné. Au préalable, nous vous ferons parvenir un devis détaillé du montant des travaux. Nous interviendrons après confirmation écrite de votre accord et encaissement de votre chèque. Les frais de port seront à votre charge et figureront sur le devis, à moins que vous ne souhaitiez venir sur notre site de fabrication, à St Gérand-le-Puy. Nous vous recevrons avec plaisir. </p>
                     <div class="accordion-close">x fermer</div>
                   </div>
                 </div>
@@ -901,6 +746,194 @@ Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts
 
         </div>
       </div>
+
+
+
+
+
+
+
+
+
+      <div id="presse" class="spaceT40">
+        <h2 class="page-header">Presse</h2>
+        <div class="row">
+          <div class="span4">
+            <h3>Nos partenaires</h3>
+            <p class="spaceT25">
+              <a href="http://www.auvieuxcampeur.fr/" target="_blank"><img src="/img/presse/Logo-Vieux-Campeur.png" alt="Vieux Campeur"></a>
+            </p>
+            <p>Préparez votre voyage au bout du monde</p>
+
+            <p class="spaceT25">
+              <a href="http://www.equip-raid.fr/" target="_blank"><img src="/img/presse/logo-equipraid.jpg"></a>
+            </p>
+            <p>Préparez votre voyage au bout du monde</p>
+
+            <p class="spaceT25">
+              <a href="http://www.narbonneaccessoires.fr/" target="_blank"><img src="/img/presse/narbonne-accessoires.png"></a>
+            </p>
+            <p>10% de remise à Clermont-Fd pour un Campinambulle acheté</p>
+
+
+            <p class="spaceT25">
+              <img src="/img/presse/logo-camp-in-van.png">
+            </p>
+            <p>Louez votre Campinambulle sur la région Aquitaine</p>
+
+          </div>
+
+          <div class="span4">
+            <h3>On parle de nous</h3>
+
+
+            <p class="spaceT25">
+              <a href="presse">
+                <img src="img/presse/france3-auvergne.png" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/camping-car-magazine.gif" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/la-montagne.gif" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/reference-camping.jpg" />
+              </a>
+            </p>
+            <p class="spaceT5">
+              <a href="presse">
+                <img src="img/presse/logo_lmcc_header.png" />
+              </a>
+            </p>
+
+          </div>
+
+          <div class="span4">
+            <h3>Blog</h3>
+            <div id="posts"> </div>
+
+          </div>
+        </div>
+        
+        <div class="clear"></div>
+      </div>
+      
+
+
+
+
+
+
+
+      <div id="qui-sommes-nous" class="spaceT40">
+        <h2 class="page-header">Qui sommes-nous ?</h2>
+        <h3 class="center spaceB25">Les fondateurs : la qualité d’un savoir faire traditionnel</h3>
+        <div class="row">
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/monique-guillon.jpg" />
+            </div>
+            <div>
+              <h3>Monique Guillon</h3>
+              <h4>Le dynamisme à votre écoute</h4>
+              <p> Co-fondatrice de l'entreprise Campinambulle qu'elle manage sur le plan de la gestion financière, administrative et commerciale. <br />  Gérante pendant 12 ans de la Sté Alphée Rêves (agencement intérieur pour collectivités enfants).  Chargée de la communication, conjointement avec Patrick Matéos.  </p>
+            </div>
+          </div>
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/patrick-mateos-01.jpg" />
+            </div>
+            <div>
+              <h3>Patrick Matéos</h3>
+              <h4>40 ans d'expérience professionnelle</h4>
+              <p> Maître ébéniste. Architecte d'intérieur. <br /> Créateur de mobilier. <br />  Formateur en ébénisterie/marqueterie. Grand&nbsp;Cuisinier.  <br /> Co-fondateur de l'entreprise Campinambulle dans laquelle il exerce son talent de concepteur et gère toute la partie technique jusqu'à la sortie d'atelier.  </p>
+            </div>
+          </div>
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/sylvere-mateos-01.jpg" />
+            </div>
+            <div>
+              <h3>Sylvère Matéos</h3>
+              <h4>L’esprit vif pour vous servir</h4>
+              <p> Doctorant en Économie. <br /> Chevalier, cascadeur équestre. <br /> Fin cuisinier (de père en fils).  <br /> Business-développeur, il a un œil sur tout&nbsp;: <br /> du compte d’exploitation à la qualité de la finition.  </p>
+            </div>
+          </div>
+        </div>
+        <h3 class="center spaceB25">L’équipe : le web au service de l’artisanat Français</h3>
+        <div class="row">
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/willy-braun.jpg" />
+            </div>
+            <div>
+              <h3>Willy Braun</h3>
+              <h4>Marketeur câblé startup</h4>
+              <p> Délégué Général de France Digitale, association d'investisseurs et de startups du numérique. <br />  Co-éditeur de Brocooli, magazine online sur le branding et le marketing digitale ( www.brocooli.com ).<br />   Auteur de “Internet Marketing 2013”. <br />  Accessoirement l’homme le plus réactif du monde. <br />  C’est la pierre angulaire de Campinambulle.  </p>
+            </div>
+          </div>
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/mathieu-daix-02.jpg" />
+            </div>
+            <div>
+              <h3>Mathieu Daix</h3>
+              <h4>La marque, l’histoire, l’histoire de la marque !</h4>
+              <p> Ne vous y trompez pas, il défend le vrai marketing, le beau marketing, celui qui a du sens et des valeurs ! <br /> Ce fils du Cantal est tombé amoureux du “made in Auvergne”, représenté par Campinambulle. <br /> C’est un touche-à-tout, aux détails, à l'image et aux valeurs véhiculées (pratique pour une entreprise d’aménagement de voitures). <br /> Oui, il croit avoir de l'humour.  </p>
+            </div>
+          </div>
+          <div class="span4 center">
+            <div class="thumbnail">
+              <img src="img/equipe/jonathan-bonzy.jpg" />
+            </div>
+            <div>
+              <h3>Jonathan Bonzy</h3>
+              <h4>Développeur en chef</h4>
+              <p> Il n’est pas auvergnat. C’est vrai... <br /> 
+                Mais il est tellement bon qu’on finit par oublier ce détail central. 
+                Son univers&nbsp;: des séries de chiffres et des symboles bizarres. <br /> 
+                Il appelle ça du code. Nous on le croit. <br /> 
+                Sa particularité&nbsp;: il aime coder en montagne.<br /> 
+                Il a eu un coup de coeur pour notre aventure 
+                et est devenu une pièce maîtresse de l’équipe.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="center spaceT25 asset">
+          <h3>Ce qui nous guide, au-delà d'une entreprise : des valeurs.</h3>
+          <div class="row spaceT25">
+            <div class="span6 center">
+              <p>
+                Une certaine idée des rapports humains<br /> 
+                dans le respect de leurs besoins<br /> 
+                et à travers l’espace concret de leur vie quotidienne<br /> 
+                dont la voiture en est l’extension.
+              </p>
+              <h4><strong>Le plaisir de vivre dans un espace bien pensé, fonctionnel et confortable.</strong></h4>
+            </div>
+            <div class="span6 center">
+              <p>
+                Tout un concept visant l'autonomie, l'indépendance,<br /> 
+                le confort, la convivialité et le partage,<br /> 
+                le respect d'autrui et, le plus possible,<br /> 
+                celui de l'environnement.
+              </p>
+              <h4><strong>“Ce qui ne pousse pas dans la nature, ne se jette pas dans la nature”.</strong></h4>
+            </div>
+          </div>
+          <div class="center spaceT25">
+          </div>
+        </div>
+      </div>
+
 
 
 
@@ -967,11 +1000,11 @@ Envoyez-nous une photo de la pièce abîmée, et selon l'importance des dégâts
           var i = 0;
           var wrapper = $("<div class='wrapper'></div>");
           // title
-          wrapper.append( "<h4 class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"' target='_blank'>"+tumblr_api_read["posts"][i]["regular-title"]+"</a></h4>" )
+          wrapper.append( "<h4 class='spaceT10'><a href='http://campinambulle.tumblr.com/' target='_blank'>"+tumblr_api_read["posts"][i]["regular-title"]+"</a></h4>" )
           // text
           wrapper.append( tumblr_api_read["posts"][i]["regular-body"].substring(0,400) + "..." );
           // link
-          wrapper.append( "<p class='spaceT10'><a href='"+tumblr_api_read["posts"][i]["url-with-slug"]+"'>Lire la suite...</a></p>" )
+          wrapper.append( "<p class='spaceT10'><a href='http://campinambulle.tumblr.com/'>Lire la suite...</a></p>" )
 
           $("#posts").append( wrapper );
       });
