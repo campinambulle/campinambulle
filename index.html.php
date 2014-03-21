@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Aménagement de voitures pour ludospaces, monospaces, fourgons utilitaires ou 4x4 - Campinambulle</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=790px">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon"> 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
@@ -85,7 +85,7 @@
 
 
 
-      <div id="nos-produits" class="spaceT40">
+      <div id="nos-produits" class="">
         <h2 class="page-header">Nos produits</h2>
         <div class="center">
           <div class="row spaceB25">
@@ -100,7 +100,7 @@
           </div>
           <div class="row">
             <div class="span4">
-              <table class="table" data-campi-id="#campi-sancy">
+              <table class="table" data-campi-id="#configSectionMalles">
                 <thead>
                   <tr> <td><img src="/img/produit/croquis-campi-forez.png"></td> </tr>
                   <tr>
@@ -121,7 +121,7 @@
               </table>
             </div>
             <div class="span4">
-              <table class="table popular" data-campi-id="#campi-lioran">
+              <table class="table popular" data-campi-id="#configSectionMalles">
                 <thead>
                   <tr> <td><img src="/img/produit/croquis-campi-lioran.png"></td> </tr>
                   <tr>
@@ -149,7 +149,7 @@
               <h3 class="popular">Le plus populaire <i class="icon-heart"></i></h3>
             </div>
             <div class="span4">
-              <table class="table" data-campi-id="#campi-val-d-allier">
+              <table class="table" data-campi-id="#configSectionMalles">
                 <thead>
                   <tr> <td><img src="/img/produit/croquis-campi-sancy.png"></td> </tr>
                   <tr>
@@ -246,37 +246,7 @@
 
 
 
-
-      <!--<div id="videos" class="spaceT40">-->
-        <!--<h2 class="page-header">Vidéos : "Et si on se faisait la malle !"</h2>-->
-        <!--<div class="row center">-->
-          <!--<div class="span4">-->
-            <!--<h3>Manger dans sa voiture</h3>-->
-            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/OmJ88K778TQ?rel=0" frameborder="0" allowfullscreen></iframe>-->
-          <!--</div>-->
-          <!--<div class="span4">-->
-            <!--<h3>Dormir dans sa voiture</h3>-->
-            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/V3YaVzT-g1o?rel=0" frameborder="0" allowfullscreen></iframe>-->
-          <!--</div>-->
-          <!--<div class="span4">-->
-            <!--<h3>Mode d’emploi</h3>-->
-            <!--<iframe width="100%" height="203" src="http://www.youtube.com/embed/VaCP1b9VPKU?rel=0" frameborder="0" allowfullscreen></iframe>-->
-          <!--</div>-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="center spaceT25">-->
-          <!--<a class="btn btn-large btn-success" href="configurateur">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>-->
-        <!--</div>-->
-      <!--</div>-->
-
-
-
-
-
-
-
-
-      <div id="nos-atouts" class="spaceT40">
+      <div id="nos-atouts" class="">
         <h2 class="page-header">Les atouts</h2>
         <div class="row">
           <div class="span3">
@@ -345,23 +315,8 @@
             <h3>Mode d’emploi</h3>
             <iframe width="100%" height="203" src="http://www.youtube.com/embed/VaCP1b9VPKU?rel=0" frameborder="0" allowfullscreen></iframe>
           </div>
-        <!--<div class="row spaceT25">-->
-          <!--<div class="span4 center">-->
-            <!--<div class="thumbnail">-->
-              <!--<img src="img/croquis/a1.jpg" />-->
-            <!--</div>-->
-          <!--</div>-->
-          <!--<div class="span4 center">-->
-            <!--<div class="thumbnail">-->
-              <!--<img src="img/croquis/a2.jpg" />-->
-            <!--</div>-->
-          <!--</div>-->
-          <!--<div class="span4 center">-->
-            <!--<div class="thumbnail">-->
-              <!--<img src="img/croquis/a3.jpg" />-->
-            <!--</div>-->
-          <!--</div>-->
-        <!--</div>-->
+        </div>
+
         <div class="spaceT25 center slogan">
           Une simple malle embarquée se transforme en "Cuisine-car" ®* <br />
           avec couchette, pour le confort de vos voyages.<br />
@@ -377,6 +332,9 @@
               <li class="spaceB10"><i class="icon-check"></i> Profitez de votre liberté en restant sur site...</li>
               <li class="spaceB10"><i class="icon-check"></i> En toute discrétion...</li>
             </ul>
+            <div class="spaceT25 center">
+              <a class="btn btn-large btn-success" href="configurateur" target="_blank">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
+            </div>
           </div>
           <div class="span5 center">
             <div class="thumbnail">
@@ -384,41 +342,38 @@
             </div>
           </div>
         </div>
-        <div class="span5 center">
-          <a class="btn btn-large btn-success" href="configurateur" target="_blank">Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
-        </div>
         <div class="clear"></div>
         <div class="row center spaceT25 slogan">
           <strong>Une malle de voyage tellement pratique !</strong><br />
-          En solo ou en famille,<br />
+          <h4>En solo ou en famille,<br />
           Campinambulle vous accompagne<br />
-          en toute occasion.<br />
+          en toute occasion.</h4>
         </div>
         <div class="row center spaceT25">
           <div class="span3">
             <h3><strong>Sportifs de pleine nature</strong></h3>
-            Randonnée, vélo,<br />
+            <h4>Randonnée, vélo,<br />
             escalade, canoë,<br />
-            surf, parapente...
+            surf, parapente...</h6>
           </div>
           <div class="span3">
             <h3><strong>En vacances</strong></h3>
-            Campeurs, pêcheurs,<br />
+            <h4>Campeurs, pêcheurs,<br />
             touristes, escapades&nbsp;nature<br />
-            week-ends&nbsp;plaisirs...<br />
+            week-ends&nbsp;plaisirs...</h4>
           </div>
           <div class="span3">
             <h3><strong>En déplacement</strong></h3>
-            Photographes,<br />
+            <h4>Photographes,<br />
             Intermittents du spectacle,<br />
             professionnels du bâtiment,<br />
-            forestiers, saisonniers...
+            forestiers, saisonniers...</h4>
           </div>
           <div class="span3">
             <h3><strong>Invités à une fête</strong></h3>
-            Festivals, concours,<br />
+            <h4>Festivals, concours,<br />
             manifestations culturelles,<br />
-            mariages, anniversaires...<br />
+            mariages, anniversaires...</h4>
           </div>
         </div>
       </div>
@@ -431,12 +386,8 @@
 
 
 
-      <div class="spaceT40 center">
-        <a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
-      </div>
-
-      <div id="faq" class="spaceT40">
-        <h2 class="page-header">Réponses aux questions les plus courantes sur le Campinambulle</h2>
+      <div id="faq" class="">
+        <h2 class="page-header">Questions / Réponses</h2>
 
         <div class="row">
 
@@ -755,7 +706,7 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
 
 
 
-      <div id="presse" class="spaceT40">
+      <div id="presse" class="">
         <h2 class="page-header">Presse</h2>
         <div class="row">
           <div class="span4">
@@ -763,7 +714,7 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
             <p class="spaceT25">
               <a href="http://www.auvieuxcampeur.fr/" target="_blank"><img src="/img/presse/Logo-Vieux-Campeur.png" alt="Vieux Campeur"></a>
             </p>
-            <p>Préparez votre voyage au bout du monde</p>
+            <p>Le Vieux Campeur se fait la Malle <br/><small>(<a href="/configurateur/#configSectionEquipements">voir les équipements complémentaires</a>)</small></p>
 
             <p class="spaceT25">
               <a href="http://www.equip-raid.fr/" target="_blank"><img src="/img/presse/logo-equipraid.jpg"></a>
@@ -792,22 +743,22 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
                 <img src="img/presse/france3-auvergne.png" />
               </a>
             </p>
-            <p class="spaceT5">
+            <p class="spaceT25">
               <a href="presse">
                 <img src="img/presse/camping-car-magazine.gif" />
               </a>
             </p>
-            <p class="spaceT5">
+            <p class="spaceT25">
               <a href="presse">
                 <img src="img/presse/la-montagne.gif" />
               </a>
             </p>
-            <p class="spaceT5">
+            <p class="spaceT25">
               <a href="presse">
                 <img src="img/presse/reference-camping.jpg" />
               </a>
             </p>
-            <p class="spaceT5">
+            <p class="spaceT25">
               <a href="presse">
                 <img src="img/presse/logo_lmcc_header.png" />
               </a>
@@ -832,7 +783,7 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
 
 
 
-      <div id="qui-sommes-nous" class="spaceT40">
+      <div id="qui-sommes-nous" class="">
         <h2 class="page-header">Qui sommes-nous ?</h2>
         <h3 class="center spaceB25">Les fondateurs : la qualité d’un savoir faire traditionnel</h3>
         <div class="row">
@@ -934,6 +885,7 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
         </div>
       </div>
 
+      <div class="clear"></div>
 
 
 
@@ -942,7 +894,7 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
 
 
 
-      <div id="contact" class="spaceT40">
+      <div id="contact" class="">
         <h2 class="page-header">Contact</h2>
         <div class="row">
           <div class="span4 center">
@@ -956,9 +908,14 @@ Nos malles de voyage bénéficient des dispositions de la garantie légale des v
               <strong><abbr title="Fax">Fax :</abbr> 09 57 43 99 85<br></strong>
               <abbr title="Courriel">Courriel :</abbr> <a href="mailto: bonjour@campinambulle.com"> bonjour@campinambulle.com</a><br>
             </address>
+
+            <div class="spaceT25center">
+              <a class="btn btn-large btn-success" href="configurateur" >Choisir mon Campinambulle <i class="icon-caret-right spaceL10"></i></a>
+            </div>
+
           </div>
           <div class="span5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5647689.245665954!2d3.550814!3d46.27684559999883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDE2JzM2LjYiTiAzwrAzMycwMi45IkU!5e0!3m2!1sfr!2sfr!4v1394465232900" width="380" height="380" frameborder="0" style="border:0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5647681.63431087!2d3.5506464000000153!3d46.27691944999887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f137b025f37d3d%3A0x20fcb0bbdedd9414!2sLes+Mallards!5e0!3m2!1sfr!2sfr!4v1395410410411" width="380" height="380" frameborder="0" style="border:0"></iframe>
           </div>
           <div class="span3">
             <a href="http://www.auvergne-nouveau-monde.fr" target="_blank"> <img src="/img/logo-auvergne-nouveau-monde.jpg" alt="Auvergne Nouveau Monde"></a>

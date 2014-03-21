@@ -58,7 +58,7 @@ Campinambulle.computePrice = function() {
   
   totalPrice = FloatToEuroMoney(totalPrice);
 
-  amenagement += "\n" + 'Prix : ' + totalPrice + ' € TTC';
+  amenagement += "\n" + 'Prix total: ' + totalPrice + ' € TTC';
   
   $('.prix-total span').html(totalPrice);
   $('#amenagement').val(amenagement);

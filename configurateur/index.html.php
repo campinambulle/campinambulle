@@ -209,7 +209,7 @@ $complements = array(
         'title' => "Pack complet repas ", 
         'description' => "(2 chaises + 2 tabourets + 1 lanterne)", 
         'pdf_url' => "/configurateur/fiches/PACK-COMPLET-REPAS.pdf", 
-        'price' => '405,70',
+        'price' => '142,80',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
@@ -251,7 +251,7 @@ $complements = array(
         'title' => "Pack complet couchage 2 personnes", 
         'description' => "(2 matelas + 2 sacs de couchage jumelables + 2 oreillers + 1 drap 2 P)", 
         'pdf_url' => "/configurateur/fiches/PACK-COMPLET-COUCHAGE.pdf", 
-        'price' => '396,70',
+        'price' => '405,70',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
@@ -432,7 +432,7 @@ $complements = array(
     <div id="subMenu">
       <div class="container">
         <div class="menu">
-          <a href='#configSectionMalles'>Malle "Cuisine-car"</a>
+          <a href='#'>Malle "Cuisine-car"</a>
           <a href='#configSectionOptions'>Options</a>
           <a href='#configSectionModules'>Modules seuls</a>
           <a href='#configSectionEquipements'>Équipements complémentaires</a>
@@ -443,8 +443,8 @@ $complements = array(
 
     <div  class="container">
 
-      <div id="configSectionMalles" class="spaceT40">
-        <div class="page-header">
+      <div id="configSectionMalles" class="">
+        <div class="page-header  without-space-before">
           <h2>MALLE "CUISINE-CAR<sup>®</sup>"</h2>
         </div>
         <?php foreach ($modeles as $model) { ?>
@@ -482,7 +482,7 @@ $complements = array(
 
 
 
-      <div id="configSectionOptions" class="spaceT40">
+      <div id="configSectionOptions" class="">
         <div class="page-header">
           <h2>OPTIONS</h2>
         </div>
@@ -517,10 +517,10 @@ $complements = array(
 
 
 
-      <div id="configSectionModules" class="spaceT40">
+      <div id="configSectionModules" class="">
         <div class="page-header">
           <h2>MODULES SEULS</h2>
-          <p>Si vous possédez déjà une malle de voyage Campinambulle et que vous souhaitez la compléter avec nos différents modules, vous pouvez les choisir à l’unité dans cette rubrique.</p>
+          <h4>Si vous possédez déjà une malle de voyage Campinambulle et que vous souhaitez la compléter avec nos différents modules, vous pouvez les choisir à l’unité dans cette rubrique.</h4>
         </div>
 
         <div class="row spaceB35">
@@ -558,10 +558,10 @@ $complements = array(
 
 
 
-      <div id="configSectionEquipements" class="spaceT40">
+      <div id="configSectionEquipements" class="">
         <div class="page-header">
           <h2>ÉQUIPEMENTS COMPLÉMENTAIRES</h2>
-          <h5>Bénéficiez de notre expertise de “campinambullistes”. En collaboration avec nos principaux partenaires, nous avons sélectionné spécialement pour vous différents équipements qui compléteront votre malle de voyage. Nous avons mis l’accent sur la fonctionnalité, la qualité et la durabilité des produits que nous vous proposons. Alors faites nous confiance et laissez vous guider… </h5>
+          <h4>Bénéficiez de notre expertise de “campinambullistes”. En collaboration avec nos principaux partenaires, nous avons sélectionné spécialement pour vous différents équipements qui compléteront votre malle de voyage. Nous avons mis l’accent sur la fonctionnalité, la qualité et la durabilité des produits que nous vous proposons. Alors faites-nous confiance et laissez-vous guider...</h4>
         </div>
 
 
@@ -603,7 +603,7 @@ $complements = array(
 
 
        <div id="order" class="page-header">
-          <h5 class="span9 offset2">Pour terminer ma commande et recevoir mon bon de commande ainsi que le moyen de paiement, <br/>je clique sur envoyer le formulaire.</h5>
+          <h4 class="span9 offset2">Pour recevoir mon bon de commande ainsi que le moyen de paiement, <br/>je remplis et j'envoie le formulaire ci-dessous.</h4>
           <div class="clear"></div>
         </div> 
 
@@ -649,7 +649,7 @@ $complements = array(
               </div>
             </div>
             <div class=" control-group">
-              <label class="control-label" for="amenagement">Mon choix <span class="required">*</span></label>
+              <label class="control-label" for="amenagement">Mon panier <span class="required">*</span></label>
               <div class="controls">
                 <textarea id="amenagement" name="amenagement" rows="7" class="span7"></textarea>
               </div>
