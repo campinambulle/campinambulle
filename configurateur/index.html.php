@@ -209,7 +209,7 @@ $complements = array(
         'title' => "Pack complet repas ", 
         'description' => "(2 chaises + 2 tabourets + 1 lanterne)", 
         'pdf_url' => "/configurateur/fiches/PACK-COMPLET-REPAS.pdf", 
-        'price' => '142,80',
+        'price' => '96,60',
         'photo' => array( 'photo_href' => 'clef-en-main.jpg', 'photo_src' => 'clef-en-main.jpg')
         ),
     "2" => array( 
